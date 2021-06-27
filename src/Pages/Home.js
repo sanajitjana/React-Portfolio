@@ -241,7 +241,7 @@ function Home() {
                           className="fa fa-pencil-square-o stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">2930</h3>
+                        <h3 className="Count">0021</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Web Design Completed</p>
@@ -253,7 +253,7 @@ function Home() {
                           className="fa fa-crop stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">2727</h3>
+                        <h3 className="Count">0040</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>UI/UX Design Done</p>
@@ -265,7 +265,7 @@ function Home() {
                           className="fa fa-bolt stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">3635</h3>
+                        <h3 className="Count">0015</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Website Created</p>
@@ -277,7 +277,7 @@ function Home() {
                           className="fa fa-coffee stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">2120</h3>
+                        <h3 className="Count">0085</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Cups Coffee Taken</p>
@@ -330,24 +330,19 @@ function Home() {
                       <div className="col">
                         <ul id="skill-main">
                           <li>
-                            <h3>Web Design-85%</h3>
-                            <span className="expand Web"></span>
+                            <h3>Web Design-95%</h3>
                           </li>
                           <li>
                             <h3>UI/UX Design-90%</h3>
-                            <span className="expand Graphics"></span>
                           </li>
                           <li>
                             <h3>Web Developing-82%</h3>
-                            <span className="expand Developing"></span>
                           </li>
                           <li>
-                            <h3>Photoshop-89%</h3>
-                            <span className="expand Photoshop"></span>
+                            <h3>Photoshop-75%</h3>
                           </li>
                           <li>
-                            <h3>Photography-95%</h3>
-                            <span className="expand Photography"></span>
+                            <h3>Photography-65%</h3>
                           </li>
                         </ul>
                       </div>
