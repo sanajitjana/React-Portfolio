@@ -330,19 +330,19 @@ function Home() {
                       <div className="col">
                         <ul id="skill-main">
                           <li>
-                            <h3>Web Design-95%</h3>
+                            <h3>HTML / CSS / Bootstrap - 95%</h3>
                           </li>
                           <li>
-                            <h3>UI/UX Design-90%</h3>
+                            <h3>JQuery / JS - 85%</h3>
                           </li>
                           <li>
-                            <h3>Web Developing-82%</h3>
+                            <h3>React JS - 82%</h3>
                           </li>
                           <li>
-                            <h3>Photoshop-75%</h3>
+                            <h3>Laravel - 75%</h3>
                           </li>
                           <li>
-                            <h3>Photography-65%</h3>
+                            <h3>MySQL / MongoDB - 80%</h3>
                           </li>
                         </ul>
                       </div>
