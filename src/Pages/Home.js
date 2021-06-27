@@ -379,7 +379,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="row love-row wow fadeIn">
-                  <div className="col-md-4 col-sm-4">
+                  <div className="col-md-6">
                     <div className="resume-details" data-wow-delay=".2s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
@@ -398,7 +398,7 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 col-sm-4">
+                  <div className="col-md-6">
                     <div className="resume-details" data-wow-delay=".3s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
@@ -418,7 +418,7 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 col-sm-4">
+                  {/* <div className="col-md-4 col-sm-4">
                     <div className="resume-details" data-wow-delay=".4s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
@@ -433,7 +433,7 @@ function Home() {
                         <p>Lorem Ipsum is simply dummy text of the printing.</p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="row main-row wow fadeIn">
                   <div className="col-md-12">
