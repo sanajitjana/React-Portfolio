@@ -42,7 +42,7 @@ function Footer() {
                               type="text"
                               id="name"
                               className="form-control"
-                              placeholder="Enter Name"
+                              placeholder="Your Name"
                               required
                               data-error="Please enter your name"
                             />
@@ -55,9 +55,22 @@ function Footer() {
                               type="email"
                               className="email form-control"
                               id="email"
-                              placeholder="Enter Email"
+                              placeholder="Your Email"
                               required
                               data-error="Please enter your email"
+                            />
+                            <div className="help-block with-errors"></div>
+                          </div>
+                        </div>
+                        <div className="form-group">
+                          <div className="controls">
+                            <input
+                              type="phone"
+                              className="phone form-control"
+                              id="phone"
+                              placeholder="Your Phone"
+                              required
+                              data-error="Please enter your phone"
                             />
                             <div className="help-block with-errors"></div>
                           </div>
@@ -68,9 +81,7 @@ function Footer() {
                               type="text"
                               id="msg_subject"
                               className="form-control"
-                              placeholder="Enter Subject"
-                              required
-                              data-error="Please enter your message subject"
+                              placeholder="Your Subject"
                             />
                             <div className="help-block with-errors"></div>
                           </div>
@@ -80,10 +91,8 @@ function Footer() {
                             <textarea
                               id="message"
                               rows="7"
-                              placeholder="Massage"
+                              placeholder="Your Massage"
                               className="form-control"
-                              required
-                              data-error="Write your message"
                             ></textarea>
                             <div className="help-block with-errors"></div>
                           </div>
@@ -93,7 +102,6 @@ function Footer() {
                           id="submit"
                           className="btn btn-success"
                         >
-                          {" "}
                           Send Message
                         </button>
                         <div
@@ -123,7 +131,16 @@ function Footer() {
                         aria-hidden="true"
                       ></i>
                       <h3>Email</h3>
-                      <p>sanajitjana1402@gmail.com</p>
+                      <a
+                        href="mailto:sanajitjana1402@gmail.com"
+                        style={{
+                          color: "black",
+                          textDecoration: "none",
+                          fontSize: "17px",
+                        }}
+                      >
+                        sanajitjana1402@gmail.com
+                      </a>
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6 contact-colamn">
@@ -133,7 +150,16 @@ function Footer() {
                         aria-hidden="true"
                       ></i>
                       <h3>Phone</h3>
-                      <p>+91 8372876775</p>
+                      <a
+                        href="tel:8372876775"
+                        style={{
+                          color: "black",
+                          textDecoration: "none",
+                          fontSize: "17px",
+                        }}
+                      >
+                        +91 8372876775
+                      </a>
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6 contact-colamn">
