@@ -24,6 +24,17 @@ function Home() {
                       </h1>
                       <div className="about-social-icon text-center">
                         <ul className="about-social">
+                          <li className="wow fadeIn" data-wow-delay=".8s">
+                            <a
+                              href="https://www.linkedin.com/in/sanajit-jana-60880b190/"
+                              target="newtab"
+                            >
+                              <i
+                                className="fa fa-linkedin"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
                           <li className="wow fadeIn" data-wow-delay=".2s">
                             <a
                               href="https://www.facebook.com/sanajitjanafb"
@@ -46,6 +57,17 @@ function Home() {
                               ></i>
                             </a>
                           </li>
+                          <li className="wow fadeIn" data-wow-delay="1.2s">
+                            <a
+                              href="https://www.instagram.com/sanajitjana01/"
+                              target="newtab"
+                            >
+                              <i
+                                className="fa fa-instagram"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
                           <li className="wow fadeIn" data-wow-delay=".6s">
                             <a
                               href="https://in.pinterest.com/sanajitjana1/_saved/"
@@ -57,17 +79,6 @@ function Home() {
                               ></i>
                             </a>
                           </li>
-                          <li className="wow fadeIn" data-wow-delay=".8s">
-                            <a
-                              href="https://www.linkedin.com/in/sanajit-jana-60880b190/"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-linkedin"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
                           <li className="wow fadeIn" data-wow-delay="1s">
                             <a
                               href="https://www.behance.net/sanajitjana1"
@@ -75,17 +86,6 @@ function Home() {
                             >
                               <i
                                 className="fa fa-behance"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay="1.2s">
-                            <a
-                              href="https://www.instagram.com/sanajitjana01/"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-instagram"
                                 aria-hidden="true"
                               ></i>
                             </a>
