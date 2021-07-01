@@ -77,17 +77,6 @@ function Footer() {
                         </div>
                         <div className="form-group">
                           <div className="controls">
-                            <input
-                              type="text"
-                              id="msg_subject"
-                              className="form-control"
-                              placeholder="Your Subject"
-                            />
-                            <div className="help-block with-errors"></div>
-                          </div>
-                        </div>
-                        <div className="form-group">
-                          <div className="controls">
                             <textarea
                               id="message"
                               rows="7"
