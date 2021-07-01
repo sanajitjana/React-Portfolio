@@ -32,16 +32,22 @@ function Footer() {
                     <h3>Write Your Message Here</h3>
                     <div className="contact-form">
                       <form
-                        id="contactForm"
-                        className="contact-form shake"
+                        action="https://herokuapp.us6.list-manage.com/subscribe/post?u=870e1b447d1f93893227a9c52&amp;id=85d6c939a5"
+                        method="post"
+                        id="mc-embedded-subscribe-form contactForm"
+                        name="mc-embedded-subscribe-form"
+                        className="contact-form shake validate"
+                        target="_blank"
                         data-toggle="validator"
+                        novalidate
                       >
                         <div className="form-group">
                           <div className="controls">
                             <input
                               type="text"
-                              id="name"
-                              className="form-control"
+                              name="FLNAME"
+                              id="mce-FLNAME"
+                              className="required form-control"
                               placeholder="Your Name"
                               required
                               data-error="Please enter your name"
@@ -53,8 +59,9 @@ function Footer() {
                           <div className="controls">
                             <input
                               type="email"
-                              className="email form-control"
-                              id="email"
+                              className="email required form-control"
+                              name="EMAIL"
+                              id="mce-EMAIL"
                               placeholder="Your Email"
                               required
                               data-error="Please enter your email"
@@ -66,8 +73,9 @@ function Footer() {
                           <div className="controls">
                             <input
                               type="phone"
+                              name="PHONE"
                               className="phone form-control"
-                              id="phone"
+                              id="phone mce-PHONE"
                               placeholder="Your Phone"
                               required
                               data-error="Please enter your phone"
@@ -78,17 +86,46 @@ function Footer() {
                         <div className="form-group">
                           <div className="controls">
                             <textarea
-                              id="message"
+                              id="message mce-MESSAGE"
                               rows="7"
                               placeholder="Your Massage"
-                              className="form-control"
+                              name="MESSAGE"
+                              className="required form-control"
+                              required
+                              data-error="Please enter your message"
                             ></textarea>
                             <div className="help-block with-errors"></div>
                           </div>
                         </div>
+                        <div id="mce-responses" class="clear">
+                          <div
+                            class="response"
+                            id="mce-error-response"
+                            style={{ display: "none" }}
+                          ></div>
+                          <div
+                            class="response"
+                            id="mce-success-response"
+                            style={{ display: "none" }}
+                          ></div>
+                        </div>
+                        {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */}
+                        <div
+                          style={{ position: "absolute", left: "-5000px" }}
+                          aria-hidden="true"
+                        >
+                          <input
+                            type="text"
+                            name="b_870e1b447d1f93893227a9c52_85d6c939a5"
+                            tabindex="-1"
+                            value=""
+                          />
+                        </div>
                         <button
                           type="submit"
-                          id="submit"
+                          value="Subscribe"
+                          name="subscribe"
+                          id="submit mc-embedded-subscribe"
                           className="btn btn-success"
                         >
                           Send Message
