@@ -252,9 +252,9 @@ function Footer() {
                 </ul>
               </div>
               <div className="copyright">
+                {/* <h3>Made with ❤️ by Sanajit Jana</h3> */}
                 <h3>
-                  Made with ❤️ by Sanajit Jana. Copyright &copy; 2021, All
-                  Rights Reserved.
+                  Copyright &copy; 2021 Sanajit Jana. All Rights Reserved.
                 </h3>
               </div>
             </div>

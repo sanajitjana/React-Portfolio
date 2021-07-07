@@ -3,7 +3,6 @@ import React from "react";
 function Header() {
   return (
     <React.StrictMode>
-      <div className="se-pre-con"></div>
       <div className="menubar">
         <div className="menubar-content">
           <nav className="navbar navbar-default navbar-fixed-top">
