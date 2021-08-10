@@ -212,8 +212,24 @@ function Footer() {
                       <i className="fa fa-facebook" aria-hidden="true"></i>
                     </a>
                   </li>
+                  <li className="wow fadeIn" data-wow-delay="1.2s">
+                    <a
+                      href="https://www.instagram.com/sanajitjana01/"
+                      target="newtab"
+                    >
+                      <i className="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li className="wow fadeIn" data-wow-delay=".8s">
+                    <a
+                      href="https://www.linkedin.com/in/sanajitjana"
+                      target="newtab"
+                    >
+                      <i className="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                  </li>
                   <li className="wow fadeIn" data-wow-delay=".4s">
-                    <a href="https://twitter.com/SanajitJana9" target="newtab">
+                    <a href="https://twitter.com/sanajitjana01" target="newtab">
                       <i className="fa fa-twitter" aria-hidden="true"></i>
                     </a>
                   </li>
@@ -225,28 +241,12 @@ function Footer() {
                       <i className="fa fa-pinterest-p" aria-hidden="true"></i>
                     </a>
                   </li>
-                  <li className="wow fadeIn" data-wow-delay=".8s">
-                    <a
-                      href="https://www.linkedin.com/in/sanajit-jana-60880b190/"
-                      target="newtab"
-                    >
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                  </li>
                   <li className="wow fadeIn" data-wow-delay="1s">
                     <a
                       href="https://www.behance.net/sanajitjana1"
                       target="newtab"
                     >
                       <i className="fa fa-behance" aria-hidden="true"></i>
-                    </a>
-                  </li>
-                  <li className="wow fadeIn" data-wow-delay="1.2s">
-                    <a
-                      href="https://www.instagram.com/sanajitjana01/"
-                      target="newtab"
-                    >
-                      <i className="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                   </li>
                 </ul>
