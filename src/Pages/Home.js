@@ -141,6 +141,18 @@ function Home() {
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
+                    <div className="love-details" data-wow-delay=".3s">
+                      <i
+                        className="fa fa-file-image-o love-icon"
+                        aria-hidden="true"
+                      ></i>
+                      <h3>UI/UX Design</h3>
+                      <div className="underline1"></div>
+                      <div className="underline2"></div>
+                      <p>Love to do UI/UX design for new product</p>
+                    </div>
+                  </div>
+                  <div className="col-md-3 col-sm-6">
                     <div className="love-details" data-wow-delay=".2s">
                       <i
                         className="fa fa-globe love-icon"
@@ -153,24 +165,9 @@ function Home() {
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".3s">
-                      <i
-                        className="fa fa-file-image-o love-icon"
-                        aria-hidden="true"
-                      ></i>
-                      <h3>UI/UX Design</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                    </div>
-                  </div>
-                  <div className="col-md-3 col-sm-6">
                     <div className="love-details" data-wow-delay=".4s">
-                      <i
-                        className="fa fa-book love-icon"
-                        aria-hidden="true"
-                      ></i>
-                      <h3>Reading Books</h3>
+                      <i className="fa fa-cog love-icon" aria-hidden="true"></i>
+                      <h3>Web Development</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
@@ -183,6 +180,7 @@ function Home() {
                 </div>
               </div>
             </div>
+
             <div className="about-back"></div>
             <div className="me-grid">
               <div className="container">
@@ -191,7 +189,7 @@ function Home() {
                     <div className="about-image">
                       <img
                         src="assets/img/about-image.jpg"
-                        alt=""
+                        alt="image  "
                         className="about-img wow fadeIn"
                       />
                     </div>
@@ -204,26 +202,22 @@ function Home() {
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat.Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit,Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat.Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
+                        I am a web developer from Kolkata, India. I enjoy
+                        building everything from small business sites to rich
+                        interactive web apps. if you are a business seeking a
+                        web presence or an employer looking to hire, you can get
+                        in touch with me{" "}
+                        <a className="underline2" href="#contact">
+                          here.
+                        </a>{" "}
+                        I design, build digital products with simple and
+                        beautiful code. I'm Specializing in custom web theme
+                        development and I love what I do.
                       </p>
-                      <a className="about-link-1" href="#home">
+                      <a className="about-link-1" href="javascript:void(0)">
                         Download Resume
                       </a>
-                      <a className="about-link-2" href="#home">
+                      <a className="about-link-2" href="#contact">
                         Hire Me
                       </a>
                     </div>
@@ -477,7 +471,7 @@ function Home() {
                         <h2>2020-Present</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Currently I am working here as a Web Developer.</p>
+                        <p>Currently I am working here as a Web Developer</p>
                       </div>
                     </div>
                   </div>
@@ -581,7 +575,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/graphics/1.jpg"
-                          alt=""
+                          alt="image  "
                         />
                       </div>
                     </div>
@@ -607,7 +601,10 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <img src="assets/img/portfolios/web/1.jpg" alt="" />
+                        <img
+                          src="assets/img/portfolios/web/1.jpg"
+                          alt="image  "
+                        />
                       </div>
                     </div>
                     <div
@@ -637,7 +634,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/development/1.jpg"
-                          alt=""
+                          alt="image  "
                         />
                       </div>
                     </div>
@@ -665,7 +662,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/graphics/2.jpg"
-                          alt=""
+                          alt="image  "
                         />
                       </div>
                     </div>
@@ -696,7 +693,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/development/2.jpg"
-                          alt=""
+                          alt="image  "
                         />
                       </div>
                     </div>
@@ -722,7 +719,10 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <img src="assets/img/portfolios/web/2.jpg" alt="" />
+                        <img
+                          src="assets/img/portfolios/web/2.jpg"
+                          alt="image  "
+                        />
                       </div>
                     </div>
                     <div className="portfolio graphics" data-cat="graphics">
@@ -749,7 +749,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/graphics/3.jpg"
-                          alt=""
+                          alt="image  "
                         />
                       </div>
                     </div>
@@ -780,7 +780,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/development/3.jpg"
-                          alt=""
+                          alt="image  "
                         />
                       </div>
                     </div>
@@ -811,7 +811,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/photography/1.jpg"
-                          alt=""
+                          alt="image  "
                         />
                       </div>
                     </div>
@@ -837,7 +837,10 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <img src="assets/img/portfolios/web/3.jpg" alt="" />
+                        <img
+                          src="assets/img/portfolios/web/3.jpg"
+                          alt="image  "
+                        />
                       </div>
                     </div>
                     <div
@@ -867,7 +870,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/photography/2.jpg"
-                          alt=""
+                          alt="image  "
                         />
                       </div>
                     </div>
@@ -898,7 +901,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/photography/3.jpg"
-                          alt=""
+                          alt="image  "
                         />
                       </div>
                     </div>
@@ -932,7 +935,7 @@ function Home() {
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
-                        <img src="assets/img/s1.jpg" alt="" />
+                        <img src="assets/img/s1.jpg" alt="image " />
                       </div>
                       <div className="service-bottom">
                         <i
@@ -949,7 +952,7 @@ function Home() {
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
-                        <img src="assets/img/s2.jpg" alt="" />
+                        <img src="assets/img/s2.jpg" alt="image " />
                       </div>
                       <div className="service-bottom">
                         <i
@@ -966,7 +969,7 @@ function Home() {
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
-                        <img src="assets/img/s3.jpg" alt="" />
+                        <img src="assets/img/s3.jpg" alt="image " />
                       </div>
                       <div className="service-bottom">
                         <i
@@ -983,7 +986,7 @@ function Home() {
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
-                        <img src="assets/img/s4.jpg" alt="" />
+                        <img src="assets/img/s4.jpg" alt="image " />
                       </div>
                       <div className="service-bottom">
                         <i
@@ -1000,7 +1003,7 @@ function Home() {
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
-                        <img src="assets/img/s5.jpg" alt="" />
+                        <img src="assets/img/s5.jpg" alt="image " />
                       </div>
                       <div className="service-bottom">
                         <i
@@ -1017,7 +1020,7 @@ function Home() {
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
-                        <img src="assets/img/s6.jpg" alt="" />
+                        <img src="assets/img/s6.jpg" alt="image " />
                       </div>
                       <div className="service-bottom">
                         <i
