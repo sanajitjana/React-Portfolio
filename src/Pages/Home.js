@@ -26,7 +26,7 @@ function Home() {
                         <ul className="about-social">
                           <li className="wow fadeIn" data-wow-delay=".8s">
                             <a
-                              href="https://www.linkedin.com/in/sanajit-jana-60880b190/"
+                              href="https://www.linkedin.com/in/sanajitjana"
                               target="newtab"
                             >
                               <i
@@ -48,7 +48,7 @@ function Home() {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".4s">
                             <a
-                              href="https://twitter.com/SanajitJana9"
+                              href="https://twitter.com/sanajitjana01"
                               target="newtab"
                             >
                               <i
@@ -122,7 +122,7 @@ function Home() {
                         I'm responsible for the site's technical aspects, such
                         as its performance and capacity, which are measures of a
                         website's speed and how much traffic the site can
-                        handle. In addition, I'm create content for the site.
+                        handle. In addition, I also create content for the site.
                       </p>
                     </div>
                   </div>
@@ -213,6 +213,15 @@ function Home() {
                         I design, build digital products with simple and
                         beautiful code. I'm Specializing in custom web theme
                         development and I love what I do.
+                        <br />
+                        <br />
+                        Since beginning my journey as a web developer nearly 4
+                        years ago, I've done remote work for agencies, consulted
+                        for startups, and collaborated with talented people to
+                        create digital products for both business and consumer
+                        use. I'm quietly confident, naturally curious, and
+                        perpetually working on improving my chops one design
+                        problem at a time.
                       </p>
                       <a className="about-link-1" href="javascript:void(0)">
                         Download Resume
@@ -296,8 +305,8 @@ function Home() {
                     <div className="underline1"></div>
                     <div className="underline2"></div>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elitsed
-                      eiusmod tempor enim minim veniam.
+                      I value simple content structure, clean design patterns,
+                      and thoughtful interactions.
                     </p>
                   </div>
                 </div>
@@ -306,15 +315,15 @@ function Home() {
                 <div className="col-md-6">
                   <div className="skill-details text-left">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat.Lorem ipsum dolor sit amet, consectetur
-                      adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip
-                      ex ea commodo consequat.
+                      UI/UX involves planning and iterating a site's structure
+                      and layout. Once the proper information architecture is in
+                      place, I design the visual layer to create a beautiful
+                      user experience. Front End Development is building out the
+                      visual components of a website. Using HTML, CSS, and
+                      Javascript, I build fast, interactive websites. This also
+                      may include a CMS, API's or other integrations. The work
+                      that I am most interested in is 0-1 work (helping you get
+                      your idea into the world).
                     </p>
                   </div>
                 </div>
@@ -324,19 +333,19 @@ function Home() {
                       <div className="col">
                         <ul id="skill-main">
                           <li>
-                            <h3>HTML / CSS / Bootstrap - 95%</h3>
+                            <h3>HTML / CSS / JS - 97%</h3>
                           </li>
                           <li>
-                            <h3>JQuery / JS - 85%</h3>
+                            <h3>UI / UX - 92%</h3>
                           </li>
                           <li>
-                            <h3>React JS - 82%</h3>
+                            <h3>React JS - 90%</h3>
                           </li>
                           <li>
-                            <h3>Laravel - 75%</h3>
+                            <h3>Laravel - 93%</h3>
                           </li>
                           <li>
-                            <h3>MySQL / MongoDB - 80%</h3>
+                            <h3>MySQL / MongoDB - 95%</h3>
                           </li>
                         </ul>
                       </div>
@@ -357,12 +366,12 @@ function Home() {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>My Resume / Educational</h3>
+                      <h3>Educational Story</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elitsed eiusmod tempor enim minim veniam.
+                        I like to code things from scratch, and enjoy bringing
+                        ideas to life in the browser.
                       </p>
                     </div>
                   </div>
@@ -381,8 +390,8 @@ function Home() {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Completed my School Life from Haludbari High School
-                          (H.S.), Khejuri-II, Purba Medinipur, WB-721430
+                          Completed my school life from Haludbari High School
+                          (H.S.), Khejuri, West Bengal, India.
                         </p>
                       </div>
                     </div>
@@ -402,7 +411,7 @@ function Home() {
                         <p>
                           Achived my Graduation Degree from CCLMS (Contai
                           College of Learning and Management Science), Contai,
-                          WB-721401
+                          West Bengal, India.
                         </p>
                       </div>
                     </div>
@@ -427,7 +436,7 @@ function Home() {
                 <div className="row main-row wow fadeIn">
                   <div className="col-md-12">
                     <div className="main-title text-center">
-                      <h3>My Resume / Working Experience</h3>
+                      <h3>Working Experience</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
@@ -507,12 +516,12 @@ function Home() {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>My Portfolio</h3>
+                      <h3>Work Portfolio</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elitsed eiusmod tempor enim minim veniam.
+                        Here are a few design projects I've worked on recently.
+                        Want to see more? <a href="#contact">contact me.</a>
                       </p>
                     </div>
                   </div>
@@ -921,7 +930,7 @@ function Home() {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>My Service</h3>
+                      <h3>Service List</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
