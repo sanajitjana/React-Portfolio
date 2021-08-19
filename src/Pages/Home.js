@@ -382,7 +382,7 @@ function Home() {
                       <div className="resume-hover"></div>
                       <div className="resume-main">
                         <i
-                          className="fa fa-graduation-cap resume-icon"
+                          className="fa fa-home resume-icon"
                           aria-hidden="true"
                         ></i>
                         <h3>School</h3>
@@ -440,8 +440,8 @@ function Home() {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elitsed eiusmod tempor enim minim veniam.
+                        I don’t like to define myself by the work I’ve done. I
+                        define myself by the work I want to do.
                       </p>
                     </div>
                   </div>
@@ -934,8 +934,8 @@ function Home() {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elitsed eiusmod tempor enim minim veniam.
+                        I don’t like to define myself by the work I’ve done. I
+                        define myself by the work I want to do.
                       </p>
                     </div>
                   </div>
