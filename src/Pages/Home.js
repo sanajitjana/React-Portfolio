@@ -24,17 +24,6 @@ function Home() {
                       </h1>
                       <div className="about-social-icon text-center">
                         <ul className="about-social">
-                          <li className="wow fadeIn" data-wow-delay=".8s">
-                            <a
-                              href="https://www.linkedin.com/in/sanajitjana"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-linkedin"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
                           <li className="wow fadeIn" data-wow-delay=".2s">
                             <a
                               href="https://www.facebook.com/sanajitjanafb"
@@ -48,17 +37,6 @@ function Home() {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".4s">
                             <a
-                              href="https://twitter.com/sanajitjana01"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-twitter"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay="1.2s">
-                            <a
                               href="https://www.instagram.com/sanajitjana01/"
                               target="newtab"
                             >
@@ -70,6 +48,28 @@ function Home() {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".6s">
                             <a
+                              href="https://www.linkedin.com/in/sanajitjana"
+                              target="newtab"
+                            >
+                              <i
+                                className="fa fa-linkedin"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                          <li className="wow fadeIn" data-wow-delay=".8s">
+                            <a
+                              href="https://twitter.com/sanajitjana01"
+                              target="newtab"
+                            >
+                              <i
+                                className="fa fa-twitter"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                          <li className="wow fadeIn" data-wow-delay="1s">
+                            <a
                               href="https://in.pinterest.com/sanajitjana1/_saved/"
                               target="newtab"
                             >
@@ -79,7 +79,7 @@ function Home() {
                               ></i>
                             </a>
                           </li>
-                          <li className="wow fadeIn" data-wow-delay="1s">
+                          <li className="wow fadeIn" data-wow-delay="1.2s">
                             <a
                               href="https://www.behance.net/sanajitjana1"
                               target="newtab"
@@ -934,8 +934,7 @@ function Home() {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        I don’t like to define myself by the work I’ve done. I
-                        define myself by the work I want to do.
+                        I always want to make things that make a difference.
                       </p>
                     </div>
                   </div>
@@ -948,13 +947,16 @@ function Home() {
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-briefcase service-icon"
+                          className="fa fa-edit service-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Work On Time</h3>
+                        <h3>Design + Development</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        <p>
+                          Clean, modern designs - optimized for performance,
+                          search engines, and converting users to customers.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -965,13 +967,16 @@ function Home() {
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-building exp-icon"
+                          className="fa fa-cart-plus exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Full Time Support</h3>
+                        <h3>eCommerce</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        <p>
+                          Integration of eCommerce platforms, payment gateways,
+                          custom product templates, and more.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -982,13 +987,16 @@ function Home() {
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-balance-scale service-icon"
+                          className="fa fa-tachometer service-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Amazing Design</h3>
+                        <h3>Analytics</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        <p>
+                          Get insights into who is browsing your site so that
+                          you can make smarter business decisions.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -999,13 +1007,16 @@ function Home() {
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-building exp-icon"
+                          className="fa fa-desktop exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>All Time Active</h3>
+                        <h3>Mobile-friendly</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        <p>
+                          A responsive design makes your website accessible to
+                          all users, regardless of their device.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1016,13 +1027,16 @@ function Home() {
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-building exp-icon"
+                          className="fa fa-search exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Made With Bootsrap</h3>
+                        <h3>Website Audits</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        <p>
+                          Looking to improve your page performance, SEO, or user
+                          experience? Request a free site audit.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1033,13 +1047,16 @@ function Home() {
                       </div>
                       <div className="service-bottom">
                         <i
-                          className="fa fa-building exp-icon"
+                          className="fa fa-file exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Fully Responsive</h3>
+                        <h3>Content Management</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        <p>
+                          Custom theme and plugin development. Easily update
+                          site content with knowledge of powerful code.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1057,8 +1074,8 @@ function Home() {
                           <div className="underline1"></div>
                           <div className="underline2"></div>
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elitsed eiusmod tempor enim minim veniam.
+                            People I've worked with have said some nice
+                            things...
                           </p>
                         </div>
                       </div>
@@ -1097,42 +1114,39 @@ function Home() {
                                 <div className="active item">
                                   <blockquote>
                                     <p>
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipisicing elit. Quidem, veritatis nulla
-                                      eum laudantium totam tempore optio
-                                      doloremque laboriosam quas, quos eaque
-                                      molestias odio aut eius animi. Impedit
-                                      temporibus nisi accusamus.
+                                      “Sanajit was a real pleasure to work with
+                                      and we look forward to working with him
+                                      again. He’s definitely the kind of
+                                      developer you can trust with a project
+                                      from start to finish.”
                                       <br />
-                                      <span>Ishrak Ahmed</span>
+                                      <span>Ishrak Chaudhury</span>
                                     </p>
                                   </blockquote>
                                 </div>
                                 <div className="item">
                                   <blockquote>
                                     <p>
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipisicing elit. Quidem, veritatis nulla
-                                      eum laudantium totam tempore optio
-                                      doloremque laboriosam quas, quos eaque
-                                      molestias odio aut eius animi. Impedit
-                                      temporibus nisi accusamus.
+                                      “Sanajit's a clear communicator with the
+                                      tenacity and confidence to really dig in
+                                      to tricky design scenarios and the
+                                      collaborative friction that's needed to
+                                      produce excellent work.”
                                       <br />
-                                      <span>Kamrul Hasan</span>
+                                      <span>Kamrul Roy</span>
                                     </p>
                                   </blockquote>
                                 </div>
                                 <div className="item">
                                   <blockquote>
                                     <p>
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipisicing elit. Quidem, veritatis nulla
-                                      eum laudantium totam tempore optio
-                                      doloremque laboriosam quas, quos eaque
-                                      molestias odio aut eius animi. Impedit
-                                      temporibus nisi accusamus.
+                                      “Sanajit has done a fantastic job overall.
+                                      Not only the site is to design, but the
+                                      code is also very clean and slick. Love
+                                      the way he achieved the translations
+                                      portion of the site.”
                                       <br />
-                                      <span>Shahadat Murshed</span>
+                                      <span>Shahadat Mahapatra</span>
                                     </p>
                                   </blockquote>
                                 </div>
@@ -1162,8 +1176,8 @@ function Home() {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elitsed eiusmod tempor enim minim veniam.
+                        The Blog, Which has thoughts on life, work and
+                        everything in between.
                       </p>
                     </div>
                   </div>

@@ -11,12 +11,12 @@ function Footer() {
                 <div className="row">
                   <div className="col-md-12 col-sm-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>Contact With Me</h3>
+                      <h3>Contact Me</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elitsed eiusmod tempor enim minim veniam.
+                        I’m always open to discussing product design work or
+                        partnership opportunities.
                       </p>
                     </div>
                   </div>
@@ -201,6 +201,9 @@ function Footer() {
                 </div>
               </div>
             </div>
+            {/* <h3 style={{ textAlign: "center" }}>
+              Living, learning, &amp; leveling up one day at a time.
+            </h3> */}
             <div className="copyright-details" style={{ marginTop: "25px" }}>
               <div className="about-social-icon text-center">
                 <ul className="about-social">
@@ -212,7 +215,7 @@ function Footer() {
                       <i className="fa fa-facebook" aria-hidden="true"></i>
                     </a>
                   </li>
-                  <li className="wow fadeIn" data-wow-delay="1.2s">
+                  <li className="wow fadeIn" data-wow-delay=".4s">
                     <a
                       href="https://www.instagram.com/sanajitjana01/"
                       target="newtab"
@@ -220,7 +223,7 @@ function Footer() {
                       <i className="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                   </li>
-                  <li className="wow fadeIn" data-wow-delay=".8s">
+                  <li className="wow fadeIn" data-wow-delay=".6s">
                     <a
                       href="https://www.linkedin.com/in/sanajitjana"
                       target="newtab"
@@ -228,12 +231,12 @@ function Footer() {
                       <i className="fa fa-linkedin" aria-hidden="true"></i>
                     </a>
                   </li>
-                  <li className="wow fadeIn" data-wow-delay=".4s">
+                  <li className="wow fadeIn" data-wow-delay=".8s">
                     <a href="https://twitter.com/sanajitjana01" target="newtab">
                       <i className="fa fa-twitter" aria-hidden="true"></i>
                     </a>
                   </li>
-                  <li className="wow fadeIn" data-wow-delay=".6s">
+                  <li className="wow fadeIn" data-wow-delay="1s">
                     <a
                       href="https://in.pinterest.com/sanajitjana1/_saved/"
                       target="newtab"
@@ -241,7 +244,7 @@ function Footer() {
                       <i className="fa fa-pinterest-p" aria-hidden="true"></i>
                     </a>
                   </li>
-                  <li className="wow fadeIn" data-wow-delay="1s">
+                  <li className="wow fadeIn" data-wow-delay="1.2s">
                     <a
                       href="https://www.behance.net/sanajitjana1"
                       target="newtab"
@@ -252,9 +255,9 @@ function Footer() {
                 </ul>
               </div>
               <div className="copyright">
-                {/* <h3>Made with ❤️ by Sanajit Jana</h3> */}
                 <h3>
-                  Copyright &copy; 2021 Sanajit Jana. All Rights Reserved.
+                  &copy; 2021, Made with ❤️ by Sanajit Jana. All Rights
+                  Reserved.
                 </h3>
               </div>
             </div>
