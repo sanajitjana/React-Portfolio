@@ -202,11 +202,24 @@ function Footer() {
                   </div>
                 </div>
               </div>
+              <div class="container-fluid map-col">
+                <div class="col-md-12 col-sm-12 map-col">
+                  <div class="google-maps">
+                    <div class="map-wrap">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471218.3856308042!2d88.04954359381742!3d22.676385747131917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1629561163421!5m2!1sen!2sin"
+                        width="100%"
+                        height="450"
+                        style={{ border: "0" }}
+                        allowfullscreen=""
+                        loading="lazy"
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            {/* <h3 style={{ textAlign: "center" }}>
-              Living, learning, &amp; leveling up one day at a time.
-            </h3> */}
-            <div className="copyright-details" style={{ marginTop: "25px" }}>
+            <div className="copyright-details">
               <div className="about-social-icon text-center">
                 <ul className="about-social">
                   <li className="wow fadeIn" data-wow-delay=".2s">
