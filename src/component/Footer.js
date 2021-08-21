@@ -1,4 +1,6 @@
 import React from "react";
+var d = new Date();
+var n = d.getFullYear();
 
 function Footer() {
   return (
@@ -256,8 +258,7 @@ function Footer() {
               </div>
               <div className="copyright">
                 <h3>
-                  &copy; 2021, Made with ❤️ by Sanajit Jana. All Rights
-                  Reserved.
+                  &copy; {n}, Made with ❤️ by Sanajit Jana. All Rights Reserved.
                 </h3>
               </div>
             </div>
