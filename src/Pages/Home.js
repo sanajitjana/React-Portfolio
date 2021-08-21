@@ -521,7 +521,10 @@ function Home() {
                       <div className="underline2"></div>
                       <p>
                         Here are a few design projects I've worked on recently.
-                        Want to see more? <a href="#contact">contact me.</a>
+                        Want to see more?{" "}
+                        <a className="underline2" href="#contact">
+                          contact me.
+                        </a>
                       </p>
                     </div>
                   </div>
