@@ -223,7 +223,11 @@ function Home() {
                         perpetually working on improving my chops one design
                         problem at a time.
                       </p>
-                      <a className="about-link-1" href="javascript:void(0)">
+                      <a
+                        className="about-link-1"
+                        href="assets/cv/sanajit-jana-profile.pdf"
+                        download
+                      >
                         Download Resume
                       </a>
                       <a className="about-link-2" href="#contact">
@@ -1220,7 +1224,7 @@ function Home() {
                           </p>
                           <a
                             href="https://medium.com/@sanajitjana1402"
-                            target="_blank"
+                            target="_newtab"
                             className="about-link-2"
                           >
                             Read More
@@ -1250,7 +1254,7 @@ function Home() {
                           </p>
                           <a
                             href="https://medium.com/@sanajitjana1402"
-                            target="_blank"
+                            target="_newtab"
                             className="about-link-2"
                           >
                             Read More
@@ -1280,7 +1284,7 @@ function Home() {
                           </p>
                           <a
                             href="https://medium.com/@sanajitjana1402"
-                            target="_blank"
+                            target="_newtab"
                             className="about-link-2"
                           >
                             Read More
@@ -1291,7 +1295,7 @@ function Home() {
                     <div className="row" style={{ textAlign: "center" }}>
                       <a
                         href="https://medium.com/@sanajitjana1402"
-                        target="_blank"
+                        target="_newtab"
                         className="btn btn-default"
                         style={{
                           width: "50%",
