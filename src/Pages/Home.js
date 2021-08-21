@@ -536,70 +536,24 @@ function Home() {
               </div>
               <div className="container">
                 <div className="gallery" style={{ paddingTop: "80px" }}>
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
-                      alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
-                    />
-                  </div>
-
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
-                      alt="sunset behind San Francisco city skyline"
-                    />
-                  </div>
-
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
-                      alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"
-                    />
-                  </div>
-
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop"
-                      alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night"
-                    />
-                  </div>
-
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop"
-                      alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA"
-                    />
-                  </div>
-
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop"
-                      alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp"
-                    />
-                  </div>
-
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
-                      alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
-                    />
-                  </div>
-
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
-                      alt="sunset behind San Francisco city skyline"
-                    />
-                  </div>
-
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
+                        alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
+                      />
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
+                        alt="sunset behind San Francisco city skyline"
+                      />
+                    </div>
+                  </a>
                   <div className="gallery-item">
                     <img
                       className="gallery-image"
@@ -607,30 +561,87 @@ function Home() {
                       alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"
                     />
                   </div>
-
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
-                      alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
-                    />
-                  </div>
-
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
-                      alt="sunset behind San Francisco city skyline"
-                    />
-                  </div>
-
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
-                      alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"
-                    />
-                  </div>
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop"
+                        alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night"
+                      />
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop"
+                        alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA"
+                      />
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop"
+                        alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp"
+                      />
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
+                        alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
+                      />
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
+                        alt="sunset behind San Francisco city skyline"
+                      />
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
+                        alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"
+                      />
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
+                        alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
+                      />
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
+                        alt="sunset behind San Francisco city skyline"
+                      />
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div className="gallery-item">
+                      <img
+                        className="gallery-image"
+                        src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
+                        alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"
+                      />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -929,16 +940,20 @@ function Home() {
                         />
                         <div className="blog-head">
                           <h3>
-                            <strong>Who is the best?</strong>
+                            <strong>
+                              What is redux and hooks in React JS?
+                            </strong>
                           </h3>
                         </div>
                         <div className="blog-bottom">
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore.Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore.
+                            In this article, you will learn what are hooks in
+                            React JS? and when to use react hooks? React JS is
+                            developed by Facebook in the year 2013. There are
+                            many students and the new developers who have
+                            confusion between react and hooks in react. Well, it
+                            is not different, react is a programming language
+                            and hooks is a function ...
                           </p>
                           <a
                             href="https://medium.com/@sanajitjana1402"
@@ -959,16 +974,18 @@ function Home() {
                         />
                         <div className="blog-head">
                           <h3>
-                            <strong>Who is the best?</strong>
+                            <strong>Import aspect for UI/UX Designer.</strong>
                           </h3>
                         </div>
                         <div className="blog-bottom">
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore.Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore.
+                            UI or User Interface is the interface that is the
+                            access point where users interact with computers. It
+                            is also a way through which users can interact with
+                            a website or an application. UI design typically
+                            refers to graphical user interfaces but also
+                            includes others, such as voice-controlled ones, a
+                            keyboard and the appearance ...
                           </p>
                           <a
                             href="https://medium.com/@sanajitjana1402"
@@ -989,16 +1006,18 @@ function Home() {
                         />
                         <div className="blog-head">
                           <h3>
-                            <strong>Who is the best?</strong>
+                            <strong>Get current path/url in Laravel 8.</strong>
                           </h3>
                         </div>
                         <div className="blog-bottom">
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore.Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore ...
+                            In this small post we will see how to get current
+                            url in laravel, if you want to get current page url
+                            in laravel then we can use many method such type
+                            current(), full(), request(), url(). Here i will
+                            give you all example to get current page url in
+                            laravel, in this example i have used helper and
+                            function as well as so let’s start ...
                           </p>
                           <a
                             href="https://medium.com/@sanajitjana1402"
