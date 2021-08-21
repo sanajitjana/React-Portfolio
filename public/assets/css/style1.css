@@ -2386,6 +2386,12 @@ blockquote {
     animation-name: none !important;
     visibility: visible !important;
   }
+  .contact-form {
+    width: 100%;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   #filters {
     padding: 0;
     list-style: none;
