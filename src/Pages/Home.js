@@ -189,7 +189,7 @@ function Home() {
                     <div className="about-image">
                       <img
                         src="assets/img/about-image.jpg"
-                        alt="image  "
+                        alt=""
                         className="about-img wow fadeIn"
                       />
                     </div>
@@ -587,7 +587,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/graphics/1.jpg"
-                          alt="image  "
+                          alt=""
                         />
                       </div>
                     </div>
@@ -613,10 +613,7 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <img
-                          src="assets/img/portfolios/web/1.jpg"
-                          alt="image  "
-                        />
+                        <img src="assets/img/portfolios/web/1.jpg" alt="" />
                       </div>
                     </div>
                     <div
@@ -646,7 +643,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/development/1.jpg"
-                          alt="image  "
+                          alt=""
                         />
                       </div>
                     </div>
@@ -674,7 +671,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/graphics/2.jpg"
-                          alt="image  "
+                          alt=""
                         />
                       </div>
                     </div>
@@ -705,7 +702,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/development/2.jpg"
-                          alt="image  "
+                          alt=""
                         />
                       </div>
                     </div>
@@ -731,10 +728,7 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <img
-                          src="assets/img/portfolios/web/2.jpg"
-                          alt="image  "
-                        />
+                        <img src="assets/img/portfolios/web/2.jpg" alt="" />
                       </div>
                     </div>
                     <div className="portfolio graphics" data-cat="graphics">
@@ -761,7 +755,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/graphics/3.jpg"
-                          alt="image  "
+                          alt=""
                         />
                       </div>
                     </div>
@@ -792,7 +786,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/development/3.jpg"
-                          alt="image  "
+                          alt=""
                         />
                       </div>
                     </div>
@@ -823,7 +817,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/photography/1.jpg"
-                          alt="image  "
+                          alt=""
                         />
                       </div>
                     </div>
@@ -849,10 +843,7 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <img
-                          src="assets/img/portfolios/web/3.jpg"
-                          alt="image  "
-                        />
+                        <img src="assets/img/portfolios/web/3.jpg" alt="" />
                       </div>
                     </div>
                     <div
@@ -882,7 +873,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/photography/2.jpg"
-                          alt="image  "
+                          alt=""
                         />
                       </div>
                     </div>
@@ -913,7 +904,7 @@ function Home() {
                         </div>
                         <img
                           src="assets/img/portfolios/photography/3.jpg"
-                          alt="image  "
+                          alt=""
                         />
                       </div>
                     </div>
