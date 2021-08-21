@@ -944,7 +944,7 @@ function Home() {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/design-development.jpg"
+                          src="assets/img/service/design-development.jpg"
                           alt="design-development"
                         />
                       </div>
@@ -966,7 +966,10 @@ function Home() {
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
-                        <img src="assets/img/e-commarce.jpg" alt="e-commarce" />
+                        <img
+                          src="assets/img/service/e-commarce.jpg"
+                          alt="e-commarce"
+                        />
                       </div>
                       <div className="service-bottom">
                         <i
@@ -986,7 +989,10 @@ function Home() {
                   <div className="col-md-4 col-sm-6">
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
-                        <img src="assets/img/analytics.jpg" alt="analytics" />
+                        <img
+                          src="assets/img/service/analytics.jpg"
+                          alt="analytics"
+                        />
                       </div>
                       <div className="service-bottom">
                         <i
@@ -1007,7 +1013,7 @@ function Home() {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/mobile-friendly.jpg"
+                          src="assets/img/service/mobile-friendly.jpg"
                           alt="mobile-friendly"
                         />
                       </div>
@@ -1030,7 +1036,7 @@ function Home() {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/website-audit.jpg"
+                          src="assets/img/service/website-audit.jpg"
                           alt="website-audit"
                         />
                       </div>
@@ -1053,7 +1059,7 @@ function Home() {
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/content-management.jpg"
+                          src="assets/img/service/content-management.jpg"
                           alt="content-management"
                         />
                       </div>
