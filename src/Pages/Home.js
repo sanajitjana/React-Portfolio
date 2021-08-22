@@ -940,9 +940,7 @@ function Home() {
                         />
                         <div className="blog-head">
                           <h3>
-                            <strong>
-                              What is redux and hooks in React JS?
-                            </strong>
+                            <strong>What is hooks in React JS?</strong>
                           </h3>
                         </div>
                         <div className="blog-bottom">
@@ -953,10 +951,11 @@ function Home() {
                             many students and the new developers who have
                             confusion between react and hooks in react. Well, it
                             is not different, react is a programming language
-                            and hooks is a function ...
+                            and hooks is a function that is used in react
+                            programming language ...
                           </p>
                           <a
-                            href="https://medium.com/@sanajitjana1402"
+                            href="https://sanajitjana.medium.com/what-are-hooks-in-react-js-46ecac4c6062"
                             target="_newtab"
                             className="about-link-2"
                           >
@@ -988,7 +987,7 @@ function Home() {
                             keyboard and the appearance ...
                           </p>
                           <a
-                            href="https://medium.com/@sanajitjana1402"
+                            href="https://sanajitjana.medium.com/"
                             target="_newtab"
                             className="about-link-2"
                           >
@@ -1020,7 +1019,7 @@ function Home() {
                             function as well as so let’s start ...
                           </p>
                           <a
-                            href="https://medium.com/@sanajitjana1402"
+                            href="https://sanajitjana.medium.com/"
                             target="_newtab"
                             className="about-link-2"
                           >
@@ -1031,7 +1030,7 @@ function Home() {
                     </div>
                     <div className="row" style={{ textAlign: "center" }}>
                       <a
-                        href="https://medium.com/@sanajitjana1402"
+                        href="https://sanajitjana.medium.com/"
                         target="_newtab"
                         className="btn btn-default"
                         style={{
