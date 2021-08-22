@@ -68,28 +68,28 @@ function Home() {
                               ></i>
                             </a>
                           </li>
-                          {/* <li className="wow fadeIn" data-wow-delay="1s">
+                          <li className="wow fadeIn" data-wow-delay="1s">
                             <a
-                              href="https://in.pinterest.com/sanajitjana1/_saved/"
+                              href="https://sanajitjana.medium.com/"
                               target="newtab"
                             >
                               <i
-                                className="fa fa-pinterest-p"
+                                className="fa fa-medium"
                                 aria-hidden="true"
                               ></i>
                             </a>
                           </li>
                           <li className="wow fadeIn" data-wow-delay="1.2s">
                             <a
-                              href="https://www.behance.net/sanajitjana1"
+                              href="https://github.com/sanajitjana"
                               target="newtab"
                             >
                               <i
-                                className="fa fa-behance"
+                                className="fa fa-github"
                                 aria-hidden="true"
                               ></i>
                             </a>
-                          </li> */}
+                          </li>
                         </ul>
                       </div>
                     </div>

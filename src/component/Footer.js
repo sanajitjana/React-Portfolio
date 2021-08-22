@@ -251,22 +251,16 @@ function Footer() {
                       <i className="fa fa-twitter" aria-hidden="true"></i>
                     </a>
                   </li>
-                  {/* <li className="wow fadeIn" data-wow-delay="1s">
-                    <a
-                      href="https://in.pinterest.com/sanajitjana1/_saved/"
-                      target="newtab"
-                    >
-                      <i className="fa fa-pinterest-p" aria-hidden="true"></i>
+                  <li className="wow fadeIn" data-wow-delay="1s">
+                    <a href="https://sanajitjana.medium.com/" target="newtab">
+                      <i className="fa fa-medium" aria-hidden="true"></i>
                     </a>
                   </li>
                   <li className="wow fadeIn" data-wow-delay="1.2s">
-                    <a
-                      href="https://www.behance.net/sanajitjana1"
-                      target="newtab"
-                    >
-                      <i className="fa fa-behance" aria-hidden="true"></i>
+                    <a href="https://github.com/sanajitjana" target="newtab">
+                      <i className="fa fa-github" aria-hidden="true"></i>
                     </a>
-                  </li> */}
+                  </li>
                 </ul>
               </div>
               <div className="copyright">
