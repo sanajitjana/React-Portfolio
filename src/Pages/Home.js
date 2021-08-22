@@ -68,7 +68,7 @@ function Home() {
                               ></i>
                             </a>
                           </li>
-                          <li className="wow fadeIn" data-wow-delay="1s">
+                          {/* <li className="wow fadeIn" data-wow-delay="1s">
                             <a
                               href="https://in.pinterest.com/sanajitjana1/_saved/"
                               target="newtab"
@@ -89,7 +89,7 @@ function Home() {
                                 aria-hidden="true"
                               ></i>
                             </a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
