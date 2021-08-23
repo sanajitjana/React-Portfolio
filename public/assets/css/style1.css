@@ -1939,6 +1939,80 @@ blockquote {
 }
 
 /*============================================================== BLOG =====================================================================*/
+.tag {
+  margin-top: 30px;
+}
+.tag h3 {
+  margin: 0px;
+  margin-top: 30px;
+  font-size: 29px;
+  color: #efd236;
+}
+.tag ul {
+  padding-left: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.tag ul li {
+  list-style: none;
+  padding: 10px 0px;
+  float: left;
+  margin-right: 10px;
+}
+
+.tag ul li a {
+  font-size: 16px;
+  color: black;
+  background-color: #efd236;
+  padding: 5px 10px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.tag ul li a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+.pagination {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.pagination ul {
+  padding-left: 0px;
+  margin: 0px;
+  margin-top: 0px;
+}
+.pagination ul li {
+  list-style: none;
+  padding: 0px 0px;
+  float: left;
+  margin-right: 10px;
+}
+
+.pagination ul li a {
+  font-size: 16px;
+  color: black;
+  background-color: #efd236;
+  border: 1px solid #efd236;
+  padding: 5px 10px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.pagination ul li a:hover {
+  color: #efd236;
+  text-decoration: none;
+  background-color: transparent;
+}
 
 #blog {
   height: auto;

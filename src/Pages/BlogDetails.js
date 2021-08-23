@@ -35,7 +35,9 @@ const BlogDetails = () => {
                         class="blog-img"
                       />
                       <div className="blog-head">
-                        <a href="#">Deepika's movie</a>
+                        <h3>
+                          <strong>What is hooks in React JS?</strong>
+                        </h3>
                       </div>
                       <div className="blog-middle">
                         <i class="fa fa-user blog-icon" aria-hidden="true"></i>
@@ -44,7 +46,7 @@ const BlogDetails = () => {
                           class="fa fa-calendar blog-icon"
                           aria-hidden="true"
                         ></i>
-                        <h2>14 march 2019</h2>
+                        <h2>22 August 2021</h2>
                       </div>
                       <div className="blog-bottom">
                         <p>
@@ -76,26 +78,6 @@ const BlogDetails = () => {
                         </li>
                         <li>
                           <a href="#">Next Post</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="tag">
-                      <h3>Tag</h3>
-                      <ul>
-                        <li>
-                          <a href="#">Web Design</a>
-                        </li>
-                        <li>
-                          <a href="#">Web Developing</a>
-                        </li>
-                        <li>
-                          <a href="#">Photography</a>
-                        </li>
-                        <li>
-                          <a href="#">Creative</a>
-                        </li>
-                        <li>
-                          <a href="#">Business</a>
                         </li>
                       </ul>
                     </div>
