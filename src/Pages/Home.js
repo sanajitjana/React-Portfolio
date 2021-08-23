@@ -956,7 +956,7 @@ function Home() {
                           </p>
                           <a
                             href="https://sanajitjana.medium.com/what-are-hooks-in-react-js-46ecac4c6062"
-                            target="_newtab"
+                            target="newtab"
                             className="about-link-2"
                           >
                             Read More
@@ -988,7 +988,7 @@ function Home() {
                           </p>
                           <a
                             href="https://sanajitjana.medium.com/"
-                            target="_newtab"
+                            target="newtab"
                             className="about-link-2"
                           >
                             Read More
@@ -1020,7 +1020,7 @@ function Home() {
                           </p>
                           <a
                             href="https://sanajitjana.medium.com/"
-                            target="_newtab"
+                            target="newtab"
                             className="about-link-2"
                           >
                             Read More
@@ -1031,7 +1031,7 @@ function Home() {
                     <div className="row" style={{ textAlign: "center" }}>
                       <a
                         href="https://sanajitjana.medium.com/"
-                        target="_newtab"
+                        target="newtab"
                         className="btn btn-default"
                         style={{
                           width: "50%",
