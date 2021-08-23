@@ -1,4 +1,5 @@
 import React from "react";
+import { Redirect } from "react-router-dom";
 import "./App.css";
 
 // import Router
@@ -10,7 +11,7 @@ import Footer from "./component/Footer";
 
 // import Pages
 import Home from "./Pages/Home";
-import BlogDetails from "./Pages/BlogDetails";
+import ReactHooks from "./Pages/ReactHooks";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/blog-details" component={BlogDetails} />
+          <Route exact path="/react-hooks" component={ReactHooks} />
         </Switch>
         <Footer />
       </Router>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -10,7 +11,7 @@ function Header() {
               <div className="row">
                 <div className="col-md-3 col-sm-3">
                   <div className="site-title">
-                    <a href="#home" style={{ textDecoration: "none" }}>
+                    <a href="/#home" style={{ textDecoration: "none" }}>
                       <h3>Sanajit Jana</h3>
                     </a>
                   </div>
@@ -36,30 +37,30 @@ function Header() {
                   >
                     <ul className="nav navbar-nav">
                       <li>
-                        <a href="#home" className="active">
+                        <a href="/#home" className="active">
                           Home
                         </a>
                       </li>
                       <li>
-                        <a href="#about">About</a>
+                        <a href="/#about">About</a>
                       </li>
                       <li>
-                        <a href="#skill">Skill</a>
+                        <a href="/#skill">Skill</a>
                       </li>
                       <li>
-                        <a href="#resume">Education</a>
+                        <a href="/#resume">Education</a>
                       </li>
                       <li>
-                        <a href="#work">Work</a>
+                        <a href="/#work">Work</a>
                       </li>
                       <li>
-                        <a href="#service">Service</a>
+                        <a href="/#service">Service</a>
                       </li>
                       <li>
-                        <a href="#blog">Blog</a>
+                        <a href="/#blog">Blog</a>
                       </li>
                       <li>
-                        <a href="#contact">Contact</a>
+                        <a href="/#contact">Contact</a>
                       </li>
                     </ul>
                   </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const BlogDetails = () => {
+const ReactHooks = () => {
   return (
     <React.StrictMode>
       <div id="blog">
@@ -92,4 +92,4 @@ const BlogDetails = () => {
   );
 };
 
-export default BlogDetails;
+export default ReactHooks;

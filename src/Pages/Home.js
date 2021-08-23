@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -954,13 +955,9 @@ const Home = () => {
                             and hooks is a function that is used in react
                             programming language ...
                           </p>
-                          <a
-                            href="https://sanajitjana.medium.com/what-are-hooks-in-react-js-46ecac4c6062"
-                            target="newtab"
-                            className="about-link-2"
-                          >
+                          <Link to="/react-hooks" className="about-link-2">
                             Read More
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
