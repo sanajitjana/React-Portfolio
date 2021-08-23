@@ -10,6 +10,7 @@ import Footer from "./component/Footer";
 
 // import Pages
 import Home from "./Pages/Home";
+import BlogDetails from "./Pages/BlogDetails";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/blog-details" component={BlogDetails} />
         </Switch>
         <Footer />
       </Router>

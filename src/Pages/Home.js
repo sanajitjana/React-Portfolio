@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+const Home = () => {
   return (
     <React.StrictMode>
       <div className="main-page-content">
@@ -1051,6 +1051,6 @@ function Home() {
       </div>
     </React.StrictMode>
   );
-}
+};
 
 export default Home;
