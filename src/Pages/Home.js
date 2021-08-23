@@ -983,13 +983,9 @@ const Home = () => {
                             includes others, such as voice-controlled ones, a
                             keyboard and the appearance ...
                           </p>
-                          <a
-                            href="https://sanajitjana.medium.com/"
-                            target="newtab"
-                            className="about-link-2"
-                          >
+                          <Link to="/react-hooks" className="about-link-2">
                             Read More
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1015,13 +1011,9 @@ const Home = () => {
                             laravel, in this example i have used helper and
                             function as well as so let’s start ...
                           </p>
-                          <a
-                            href="https://sanajitjana.medium.com/"
-                            target="newtab"
-                            className="about-link-2"
-                          >
+                          <Link to="/react-hooks" className="about-link-2">
                             Read More
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
