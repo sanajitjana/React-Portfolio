@@ -37,7 +37,7 @@ const ReactHooks = () => {
                     justifyContent: "center",
                   }}
                 >
-                  <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12">
+                  <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12">
                     <div className="blog-main">
                       <img
                         src="https://res.cloudinary.com/practicaldev/image/fetch/s--q3uEVYYT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ekjlwtc87ktcrzmahn9j.png"
