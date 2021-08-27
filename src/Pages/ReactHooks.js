@@ -20,8 +20,8 @@ const ReactHooks = () => {
                     <div class="underline1"></div>
                     <div class="underline2"></div>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elitsed
-                      eiusmod tempor enim minim veniam.
+                      ReactJS/Php-Laravel and Web Components everything else
+                      accomplished on my spare software development time.
                     </p>
                   </div>
                 </div>
