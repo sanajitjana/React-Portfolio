@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const UiUx = () => {
   return (
@@ -74,8 +72,9 @@ const UiUx = () => {
                           <li>Clear to understand</li>
                           <li>Consistent on all interface screens</li>
                         </ul>
+                        <br />
                         <p>There are two types of User Interface:</p>
-                        <h5>Command Line Interface:</h5>
+                        <h4>Command Line Interface:</h4>
                         <p>
                           Command Line Interface provides a command prompt,
                           where the user types the command and feeds it to the
@@ -90,13 +89,13 @@ const UiUx = () => {
                           the software. User Interface Design Process:
                         </p>
                         <img
-                          src="https://res.cloudinary.com/practicaldev/image/fetch/s--iA6Y09q6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q4xcpnco3la87yil5lmi.png"
+                          src="https://miro.medium.com/max/700/1*x-hyR6XnASOPWUJdIv2otg.png"
                           alt="Hooks are the most valuable things in react"
                           class="blog-img"
                         />
                         <br />
                         <br />
-                        <h5>User Interface Design Process:</h5>
+                        <h4>User Interface Design Process:</h4>
                         <p>
                           The analysis and design process of a user interface is
                           iterative and can be represented by a spiral model.
@@ -136,6 +135,7 @@ const UiUx = () => {
                             driven by environmental factors?
                           </li>
                         </ul>
+                        <br />
                         <p>
                           <strong>2.</strong> Interface Design: The goal of this
                           phase is to define the set of interface objects and
@@ -230,14 +230,7 @@ const UiUx = () => {
                     <div className="pagination">
                       <ul>
                         <li>
-                          <Link
-                            to="/react-hooks"
-                            style={{
-                              cursor: "not-allowed",
-                            }}
-                          >
-                            Previous Post
-                          </Link>
+                          <Link to="/react-hooks">Previous Post</Link>
                         </li>
                         <li>
                           <Link to="#">Next Post</Link>
