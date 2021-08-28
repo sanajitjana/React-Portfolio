@@ -983,7 +983,7 @@ const Home = () => {
                             includes others, such as voice-controlled ones, a
                             keyboard and the appearance ...
                           </p>
-                          <Link to="/react-hooks" className="about-link-2">
+                          <Link to="/ui-ux" className="about-link-2">
                             Read More
                           </Link>
                         </div>
