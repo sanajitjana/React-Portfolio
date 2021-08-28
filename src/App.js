@@ -11,6 +11,7 @@ import Footer from "./component/Footer";
 // import Pages
 import Home from "./Pages/Home";
 import ReactHooks from "./Pages/ReactHooks";
+import UiUx from "./Pages/UiUx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/react-hooks" component={ReactHooks} />
+          <Route exact path="/ui-ux" component={UiUx} />
         </Switch>
         <Footer />
       </Router>

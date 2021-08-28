@@ -166,7 +166,7 @@ const ReactHooks = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link to="#">Next Post</Link>
+                          <Link to="/ui-ux">Next Post</Link>
                         </li>
                       </ul>
                     </div>
