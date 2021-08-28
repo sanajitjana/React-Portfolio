@@ -936,7 +936,7 @@ const Home = () => {
                       <div className="blog-main">
                         <img
                           src="assets/img/blog/blog1.jfif"
-                          alt="blog-img"
+                          alt="React hooks were introduced in version 16.8"
                           className="blog-img"
                         />
                         <div className="blog-head">
@@ -965,7 +965,7 @@ const Home = () => {
                       <div className="blog-main">
                         <img
                           src="assets/img/blog/blog2.png"
-                          alt="blog-img"
+                          alt="The importance of UI/UX"
                           className="blog-img"
                         />
                         <div className="blog-head">
