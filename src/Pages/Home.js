@@ -171,11 +171,7 @@ const Home = () => {
                       <h3>Web Development</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>
-                        Love to read books
-                        <br />
-                        <br />
-                      </p>
+                      <p>Create all types of modern web development.</p>
                     </div>
                   </div>
                 </div>
@@ -414,7 +410,7 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Achived my Graduation Degree from CCLMS (Contai
+                          Achieved my Graduation Degree from CCLMS (Contai
                           College of Learning and Management Science), Contai,
                           West Bengal, India.
                         </p>
@@ -773,7 +769,7 @@ const Home = () => {
                           className="fa fa-search exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Website Audits</h3>
+                        <h3>Website Rank</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
