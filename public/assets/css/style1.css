@@ -85,7 +85,7 @@ body {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
-  background-color: rgba(108, 108, 108, 0.47);
+  background-color: #00565d;
 }
 .navbar-default.small {
   background-color: white;
