@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Component
 import Header from "./component/Header";
 import Footer from "./component/Footer";
+import ScrollToTop from "./component/ScrollToTop";
 
 // import Pages
 import Home from "./Pages/Home";
@@ -18,11 +19,13 @@ function App() {
     <React.StrictMode>
       <Router>
         <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/react-hooks" component={ReactHooks} />
-          <Route exact path="/ui-ux" component={UiUx} />
-        </Switch>
+        <ScrollToTop>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/react-hooks" component={ReactHooks} />
+            <Route exact path="/ui-ux" component={UiUx} />
+          </Switch>
+        </ScrollToTop>
         <Footer />
       </Router>
     </React.StrictMode>
