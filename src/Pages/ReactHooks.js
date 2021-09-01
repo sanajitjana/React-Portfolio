@@ -40,7 +40,7 @@ const ReactHooks = () => {
                   <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12">
                     <div className="blog-main">
                       <img
-                        src="https://res.cloudinary.com/practicaldev/image/fetch/s--q3uEVYYT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ekjlwtc87ktcrzmahn9j.png"
+                        src="assets/img/blog-details/react-hoooks.jpg"
                         alt="React hooks were introduced in version 16.8"
                         class="blog-img"
                       />
@@ -103,7 +103,7 @@ const ReactHooks = () => {
                           the functional component.
                         </p>
                         <img
-                          src="https://res.cloudinary.com/practicaldev/image/fetch/s--iA6Y09q6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q4xcpnco3la87yil5lmi.png"
+                          src="assets/img/blog-details/react-hooks-about.jpg"
                           alt="Hooks are the most valuable things in react"
                           class="blog-img"
                         />

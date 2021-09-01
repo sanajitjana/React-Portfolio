@@ -38,7 +38,7 @@ const UiUx = () => {
                   <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12">
                     <div className="blog-main">
                       <img
-                        src="https://miro.medium.com/max/1244/1*WNbm-XuH7Dmehsprc2O5vA.png"
+                        src="assets/img/blog-details/ui-ux.jpg"
                         alt="The importance of UI/UX"
                         class="blog-img"
                       />
@@ -89,7 +89,7 @@ const UiUx = () => {
                           the software. User Interface Design Process:
                         </p>
                         <img
-                          src="https://miro.medium.com/max/700/1*x-hyR6XnASOPWUJdIv2otg.png"
+                          src="assets/img/blog-details/ui-ux-process.jpg"
                           alt="Hooks are the most valuable things in react"
                           class="blog-img"
                         />
