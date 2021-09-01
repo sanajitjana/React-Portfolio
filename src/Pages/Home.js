@@ -930,15 +930,24 @@ const Home = () => {
                   <div className="row">
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
-                        <img
-                          src="assets/img/blog/blog1.jfif"
-                          alt="React hooks were introduced in version 16.8"
-                          className="blog-img"
-                        />
+                        <Link to="/react-hooks">
+                          <img
+                            src="assets/img/blog/blog1.jfif"
+                            alt="React hooks were introduced in version 16.8"
+                            className="blog-img"
+                          />
+                        </Link>
                         <div className="blog-head">
-                          <h3>
-                            <strong>What is hooks in React JS?</strong>
-                          </h3>
+                          <Link
+                            to="/react-hooks"
+                            style={{ textDecoration: "none" }}
+                          >
+                            <h3>
+                              <strong>
+                                What is the importance of hooks in React JS?
+                              </strong>
+                            </h3>
+                          </Link>
                         </div>
                         <div className="blog-bottom">
                           <p>
@@ -948,8 +957,7 @@ const Home = () => {
                             many students and the new developers who have
                             confusion between react and hooks in react. Well, it
                             is not different, react is a programming language
-                            and hooks is a function that is used in react
-                            programming language ...
+                            and hooks is ...
                           </p>
                           <Link to="/react-hooks" className="about-link-2">
                             Read More
@@ -959,15 +967,21 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
-                        <img
-                          src="assets/img/blog/blog2.png"
-                          alt="The importance of UI/UX"
-                          className="blog-img"
-                        />
+                        <Link to="/ui-ux">
+                          <img
+                            src="assets/img/blog/blog2.png"
+                            alt="The importance of UI/UX"
+                            className="blog-img"
+                          />
+                        </Link>
                         <div className="blog-head">
-                          <h3>
-                            <strong>Import aspect for UI/UX Designer.</strong>
-                          </h3>
+                          <Link to="/ui-ux" style={{ textDecoration: "none" }}>
+                            <h3>
+                              <strong>
+                                The importance of UI/UX | Software Engineering
+                              </strong>
+                            </h3>
+                          </Link>
                         </div>
                         <div className="blog-bottom">
                           <p>
@@ -987,15 +1001,24 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
-                        <img
-                          src="assets/img/blog/blog3.jfif"
-                          alt="blog-img"
-                          className="blog-img"
-                        />
+                        <Link to="/react-hooks">
+                          <img
+                            src="assets/img/blog/blog3.jfif"
+                            alt="blog-img"
+                            className="blog-img"
+                          />
+                        </Link>
                         <div className="blog-head">
-                          <h3>
-                            <strong>Get current path/url in Laravel 8.</strong>
-                          </h3>
+                          <Link
+                            to="/react-hooks"
+                            style={{ textDecoration: "none" }}
+                          >
+                            <h3>
+                              <strong>
+                                Get current path/url in Laravel 8.
+                              </strong>
+                            </h3>
+                          </Link>
                         </div>
                         <div className="blog-bottom">
                           <p>
