@@ -151,6 +151,9 @@ const ReactHooks = () => {
                           ask in the comment Info At One always try our best to
                           help you with it…
                         </p>
+
+                        {/* Go to www.addthis.com/dashboard to customize your tools */}
+                        <div class="addthis_inline_share_toolbox"></div>
                       </div>
                     </div>
                     <div className="pagination">
