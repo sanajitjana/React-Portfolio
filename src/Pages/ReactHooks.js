@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
@@ -159,17 +158,17 @@ const ReactHooks = () => {
                     <div className="pagination">
                       <ul>
                         <li>
-                          <Link
-                            to="#"
+                          <a
+                            href="#"
                             style={{
                               cursor: "not-allowed",
                             }}
                           >
                             Previous Post
-                          </Link>
+                          </a>
                         </li>
                         <li>
-                          <Link to="/ui-ux">Next Post</Link>
+                          <a href="/ui-ux">Next Post</a>
                         </li>
                       </ul>
                     </div>

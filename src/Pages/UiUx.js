@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const UiUx = () => {
   return (
@@ -234,10 +233,10 @@ const UiUx = () => {
                     <div className="pagination">
                       <ul>
                         <li>
-                          <Link to="/react-hooks">Previous Post</Link>
+                          <a href="/react-hooks">Previous Post</a>
                         </li>
                         <li>
-                          <Link to="#">Next Post</Link>
+                          <a href="javascript:void(0)">Next Post</a>
                         </li>
                       </ul>
                     </div>

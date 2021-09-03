@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -930,16 +929,16 @@ const Home = () => {
                   <div className="row">
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
-                        <Link to="/react-hooks">
+                        <a href="/react-hooks">
                           <img
                             src="assets/img/blog/blog1.jfif"
                             alt="React hooks were introduced in version 16.8"
                             className="blog-img"
                           />
-                        </Link>
+                        </a>
                         <div className="blog-head">
-                          <Link
-                            to="/react-hooks"
+                          <a
+                            href="/react-hooks"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
@@ -947,7 +946,7 @@ const Home = () => {
                                 What is the importance of hooks in React JS?
                               </strong>
                             </h3>
-                          </Link>
+                          </a>
                         </div>
                         <div className="blog-bottom">
                           <p>
@@ -959,29 +958,29 @@ const Home = () => {
                             is not different, react is a programming language
                             and hooks is ...
                           </p>
-                          <Link to="/react-hooks" className="about-link-2">
+                          <a href="/react-hooks" className="about-link-2">
                             Read More
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
-                        <Link to="/ui-ux">
+                        <a href="/ui-ux">
                           <img
                             src="assets/img/blog/blog2.png"
                             alt="The importance of UI/UX"
                             className="blog-img"
                           />
-                        </Link>
+                        </a>
                         <div className="blog-head">
-                          <Link to="/ui-ux" style={{ textDecoration: "none" }}>
+                          <a href="/ui-ux" style={{ textDecoration: "none" }}>
                             <h3>
                               <strong>
                                 The importance of UI/UX | Software Engineering
                               </strong>
                             </h3>
-                          </Link>
+                          </a>
                         </div>
                         <div className="blog-bottom">
                           <p>
@@ -993,24 +992,24 @@ const Home = () => {
                             includes others, such as voice-controlled ones, a
                             keyboard and the appearance ...
                           </p>
-                          <Link to="/ui-ux" className="about-link-2">
+                          <a href="/ui-ux" className="about-link-2">
                             Read More
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
-                        <Link to="/react-hooks">
+                        <a href="/react-hooks">
                           <img
                             src="assets/img/blog/blog3.jfif"
                             alt="blog-img"
                             className="blog-img"
                           />
-                        </Link>
+                        </a>
                         <div className="blog-head">
-                          <Link
-                            to="/react-hooks"
+                          <a
+                            href="/react-hooks"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
@@ -1018,7 +1017,7 @@ const Home = () => {
                                 Get current path/url in Laravel 8.
                               </strong>
                             </h3>
-                          </Link>
+                          </a>
                         </div>
                         <div className="blog-bottom">
                           <p>
@@ -1030,9 +1029,9 @@ const Home = () => {
                             laravel, in this example i have used helper and
                             function as well as so let’s start ...
                           </p>
-                          <Link to="/react-hooks" className="about-link-2">
+                          <a href="/react-hooks" className="about-link-2">
                             Read More
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     </div>
