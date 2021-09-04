@@ -92,6 +92,14 @@
   </script>
 
   <meta name="google-site-verification" content="fhyTdtqD_RstBjnzobeQOmCoX6O14NcjX5oEcvaBsMw" />
+
+  <!-- chat support -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+  <!-- Style of the plugin -->
+  <link rel="stylesheet" href="assets/plugin/whatsapp-chat-support.css">
+  <link rel="stylesheet" href="assets/plugin/components/Font Awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -106,6 +114,56 @@
   <div class="se-pre-con"></div><!-- ========== PRELOADER ========== -->
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+
+  <!-- chat support -->
+  <div class="whatsapp_chat_support wcs_fixed_right" id="example_1">
+    <div class="wcs_button_label">
+      Questions? Let's Chat
+    </div>
+    <div class="wcs_button wcs_button_circle">
+      <span class="fa fa-whatsapp"></span>
+    </div>
+
+    <div class="wcs_popup">
+      <div class="wcs_popup_close">
+        <span class="fa fa-close"></span>
+      </div>
+      <div class="wcs_popup_header">
+        <strong>Need Help? Chat with us</strong>
+        <br>
+        <div class="wcs_popup_header_description">Click one of our representatives below</div>
+      </div>
+      <div class="wcs_popup_person_container">
+        <div class="wcs_popup_person" data-number="+919002728238"
+          data-default-msg="Hi, I have some questions about sales, can you please help me?">
+          <div class="wcs_popup_person_img"><img src="img/person_5.jpg" alt=""></div>
+          <div class="wcs_popup_person_content">
+            <div class="wcs_popup_person_name">Mia Smith</div>
+            <div class="wcs_popup_person_description">Sales Support</div>
+            <div class="wcs_popup_person_status">I'm Online</div>
+          </div>
+        </div>
+
+        <div class="wcs_popup_person" data-number="8240321328">
+          <div class="wcs_popup_person_img"><img src="img/person_6.jpg" alt=""></div>
+          <div class="wcs_popup_person_content">
+            <div class="wcs_popup_person_name">James Brown</div>
+            <div class="wcs_popup_person_description">Customer Support</div>
+            <div class="wcs_popup_person_status">I'm Online</div>
+          </div>
+        </div>
+
+        <div class="wcs_popup_person" data-number="+919002728238" data-availability='{}'>
+          <div class="wcs_popup_person_img"><img src="img/person_7.jpg" alt=""></div>
+          <div class="wcs_popup_person_content">
+            <div class="wcs_popup_person_name">Robert Miller</div>
+            <div class="wcs_popup_person_description">Techincal Support</div>
+            <div class="wcs_popup_person_status">I'm Online</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- JAVASCRIPT -->
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
@@ -176,6 +234,47 @@
 
   <!-- Go to www.addthis.com/dashboard to customize your tools -->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-613243888805a7f1"></script>
+
+  <!-- chat support -->
+  <script src="assets/plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+
+  <!-- Plugin JS file -->
+  <script src="assets/plugin/components/moment/moment.min.js"></script>
+  <script src="assets/plugin/components/moment/moment-timezone-with-data.min.js"></script>
+  <script src="assets/plugin/components/moment/moment-timezone-with-data-10-year-range.min.js"></script>
+  <script src="assets/plugin/whatsapp-chat-support.js"></script>
+
+  <script>
+    $('#example_1').whatsappChatSupport();
+
+    $('#example_2').whatsappChatSupport();
+
+    $('#example_3').whatsappChatSupport({
+      defaultMsg: '',
+    });
+
+    $('#example_4').whatsappChatSupport({
+      defaultMsg: '',
+    });
+
+    $('#example_5').whatsappChatSupport();
+
+    $('#example_6').whatsappChatSupport();
+
+    $('#example_7').whatsappChatSupport();
+
+    $('#example_8').whatsappChatSupport();
+
+    $('#example_9').whatsappChatSupport();
+
+    $('#example_10').whatsappChatSupport();
+
+    $('#example_11').whatsappChatSupport();
+
+    $('#example_12').whatsappChatSupport();
+
+    $('#example_13').whatsappChatSupport();
+  </script>
 </body>
 <!-- end body -->
 
