@@ -26,7 +26,7 @@ const Home = () => {
                         <ul className="about-social">
                           <li className="wow fadeIn" data-wow-delay=".2s">
                             <a
-                              href="https://www.facebook.com/sanajitjanafb"
+                              href="https://www.facebook.com/sanajitjanadeveloper"
                               target="newtab"
                             >
                               <i
