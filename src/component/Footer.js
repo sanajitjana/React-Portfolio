@@ -1,6 +1,6 @@
 import React from "react";
 var d = new Date();
-var n = d.getFullYear();
+var currYear = d.getFullYear();
 
 function Footer() {
   return (
@@ -48,7 +48,8 @@ function Footer() {
         </div>
         <div className="copyright">
           <h3>
-            &copy; {n}, Made with ❤️ by Sanajit Jana. All Rights Reserved.
+            &copy; {currYear}, Made with ❤️ by Sanajit Jana. All Rights
+            Reserved.
           </h3>
         </div>
       </div>
