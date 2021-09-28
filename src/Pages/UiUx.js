@@ -236,7 +236,7 @@ const UiUx = () => {
                           <a href="/react-hooks">Previous Post</a>
                         </li>
                         <li>
-                          <a href="javascript:void(0)">Next Post</a>
+                          <a href="/form-example">Next Post</a>
                         </li>
                       </ul>
                     </div>
