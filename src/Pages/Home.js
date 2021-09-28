@@ -1000,7 +1000,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
-                        <a href="/react-hooks">
+                        <a href="/form-example">
                           <img
                             src="assets/img/blog/blog3.jfif"
                             alt="blog-img"
@@ -1009,27 +1009,26 @@ const Home = () => {
                         </a>
                         <div className="blog-head">
                           <a
-                            href="/react-hooks"
+                            href="/form-example"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
-                              <strong>
-                                Get current path/url in Laravel 8.
-                              </strong>
+                              <strong>Form Example in Laravel 8</strong>
                             </h3>
                           </a>
                         </div>
                         <div className="blog-bottom">
                           <p>
-                            In this small post we will see how to get current
-                            url in laravel, if you want to get current page url
-                            in laravel then we can use many method such type
-                            current(), full(), request(), url(). Here i will
-                            give you all example to get current page url in
-                            laravel, in this example i have used helper and
-                            function as well as so let’s start ...
+                            Laravel 8 form example tutorial. In this post, i
+                            will teach from starting on how to send form data on
+                            controller and how to insert form data in database
+                            using laravel 8. If you are trying to create form
+                            and want to insert form data into database using
+                            laravel 8 latest version. So this post will help you
+                            to do this. Because in this post example, i will
+                            create contact-list ...
                           </p>
-                          <a href="/react-hooks" className="about-link-2">
+                          <a href="/form-example" className="about-link-2">
                             Read More
                           </a>
                         </div>
