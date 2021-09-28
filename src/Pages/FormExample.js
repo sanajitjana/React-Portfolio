@@ -74,6 +74,24 @@ const FormExample = () => {
                           contact-list form and submit to database using laravel
                           8 version.
                         </p>
+                        <p>
+                          Visit my{" "}
+                          <a
+                            href="https://github.com/sanajitjana"
+                            title="Sanajit Jana"
+                            target="_blank"
+                          >
+                            Github Profile
+                          </a>{" "}
+                          and do checkout this{" "}
+                          <a
+                            href="https://github.com/sanajitjana/laravel-curd"
+                            title="Laravel Curd"
+                            target="_blank"
+                          >
+                            repository
+                          </a>
+                        </p>
                         <h4>How to Submit Form Data into Database?</h4>
                         <ul>
                           <li>Step 1 – Install Laravel 8 Application</li>
@@ -123,10 +141,10 @@ const FormExample = () => {
                             "DB_CONNECTION=mysql\nDB_HOST=127.0.0.1\nDB_PORT=3306\nDB_DATABASE=db name\nDB_USERNAME=db user name\nDB_PASSWORD=db password"
                           }
                         </SyntaxHighlighter>
-                        <h3>
+                        <h4>
                           Step 3 – Create Model &amp; Migration File For Add
                           Blog Post Form
-                        </h3>
+                        </h4>
                         <p>
                           In step 3, open command prompt and navigate to your
                           project by using the following command:
