@@ -222,9 +222,9 @@ const Home = () => {
                       <a
                         className="about-link-1"
                         href="assets/cv/sanajit-jana-profile.pdf"
-                        download
+                        target="_blank"
                       >
-                        Download Resume
+                        See Resume
                       </a>
                       <a className="about-link-2" href="#contact">
                         Hire Me
