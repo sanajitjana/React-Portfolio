@@ -276,10 +276,7 @@ const FormExample = () => {
                           <a href="/ui-ux">Previous Post</a>
                         </li>
                         <li>
-                          <a
-                            href="https://sanajitjana.medium.com/"
-                            target="_blank"
-                          >
+                          <a href="https://dev.to/sanajitjana" target="_blank">
                             Next Post
                           </a>
                         </li>
