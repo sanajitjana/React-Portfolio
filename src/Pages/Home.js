@@ -1038,11 +1038,13 @@ const Home = () => {
                       <a
                         href="https://dev.to/sanajitjana"
                         target="newtab"
-                        className="btn btn-default"
+                        className="btn btn-warning"
                         style={{
                           width: "50%",
                           fontSize: "16px",
                           backgroundColor: "#efd236",
+                          borderColor: "#efd236",
+                          color: "black",
                         }}
                       >
                         More Blog
