@@ -158,16 +158,6 @@ const ReactHooks = () => {
                     <div className="pagination">
                       <ul>
                         <li>
-                          <a
-                            href="#"
-                            style={{
-                              cursor: "not-allowed",
-                            }}
-                          >
-                            Previous Post
-                          </a>
-                        </li>
-                        <li>
                           <a href="/ui-ux">Next Post</a>
                         </li>
                       </ul>

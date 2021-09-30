@@ -1036,7 +1036,7 @@ const Home = () => {
                     </div>
                     <div className="row" style={{ textAlign: "center" }}>
                       <a
-                        href="https://sanajitjana.medium.com/"
+                        href="https://dev.to/sanajitjana"
                         target="newtab"
                         className="btn btn-default"
                         style={{
