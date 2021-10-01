@@ -1752,7 +1752,7 @@ section:nth-of-type(2) {
   padding: 20px 20px;
 }
 .service-head {
-  background-color: #efd236;
+  /* background-color: #efd236; */
   transition: 0.4s;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
@@ -1760,7 +1760,7 @@ section:nth-of-type(2) {
   -o-transition: 0.4s;
 }
 .service-details:hover .service-head img {
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 .service-head img {
   width: 100%;
