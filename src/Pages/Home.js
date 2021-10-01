@@ -931,7 +931,7 @@ const Home = () => {
                       <div className="blog-main">
                         <a href="/react-hooks">
                           <img
-                            src="assets/img/blog/blog1.jfif"
+                            src="assets/img/blog/blog1.png"
                             alt="React hooks were introduced in version 16.8"
                             className="blog-img"
                           />
@@ -1002,7 +1002,7 @@ const Home = () => {
                       <div className="blog-main">
                         <a href="/form-example">
                           <img
-                            src="assets/img/blog/blog3.jfif"
+                            src="assets/img/blog/blog3.png"
                             alt="blog-img"
                             className="blog-img"
                           />
