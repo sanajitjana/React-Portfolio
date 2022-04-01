@@ -1214,14 +1214,14 @@ const Home = () => {
                         ></i>
                         <h3>Email</h3>
                         <a
-                          href="mailto:sanajitjana1402@gmail.com"
+                          href="mailto:contact.sanajitjana@gmail.com"
                           style={{
                             color: "black",
                             textDecoration: "none",
                             fontSize: "17px",
                           }}
                         >
-                          sanajitjana1402@gmail.com
+                          contact.sanajitjana@gmail.com
                         </a>
                       </div>
                     </div>
