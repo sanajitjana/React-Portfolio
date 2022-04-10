@@ -185,7 +185,7 @@ const Home = () => {
                     <div className="about-image">
                       <img
                         src="assets/img/about-image.jpg"
-                        alt=""
+                        alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
                     </div>
