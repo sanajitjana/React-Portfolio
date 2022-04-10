@@ -26,33 +26,33 @@ const Home = () => {
                         <ul className="about-social">
                           <li className="wow fadeIn" data-wow-delay=".2s">
                             <a
-                              href="https://www.facebook.com/sanajitjanadeveloper"
+                              href="https://github.com/sanajitjana"
                               target="newtab"
                             >
                               <i
-                                className="fa fa-facebook"
+                                className="fa fa-github"
                                 aria-hidden="true"
                               ></i>
                             </a>
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".4s">
                             <a
-                              href="https://www.instagram.com/sanajitjana01/"
+                              href="https://www.linkedin.com/in/sanajitjana01"
                               target="newtab"
                             >
                               <i
-                                className="fa fa-instagram"
+                                className="fa fa-linkedin"
                                 aria-hidden="true"
                               ></i>
                             </a>
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".6s">
                             <a
-                              href="https://www.linkedin.com/in/sanajitjana"
+                              href="https://www.instagram.com/sanajitjana01/"
                               target="newtab"
                             >
                               <i
-                                className="fa fa-linkedin"
+                                className="fa fa-instagram"
                                 aria-hidden="true"
                               ></i>
                             </a>
@@ -75,17 +75,6 @@ const Home = () => {
                             >
                               <i
                                 className="fa fa-medium"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay="1.2s">
-                            <a
-                              href="https://github.com/sanajitjana"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-github"
                                 aria-hidden="true"
                               ></i>
                             </a>
@@ -377,7 +366,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="row love-row wow fadeIn">
-                  <div className="col-md-6">
+                  <div className="col-md-4 col-sm-4">
                     <div className="resume-details" data-wow-delay=".2s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
@@ -396,7 +385,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4 col-sm-4">
                     <div className="resume-details" data-wow-delay=".3s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
@@ -409,14 +398,17 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Achieved my Graduation Degree from CCLMS (Contai
-                          College of Learning and Management Science), Contai,
-                          West Bengal, India.
+                          Achieved my Graduation Degree from{" "}
+                          <a href="https://www.cclms.org/" target="_blank">
+                            CCLMS (Contai College of Learning and Management
+                            Science)
+                          </a>
+                          , Contai, West Bengal, India.
                         </p>
                       </div>
                     </div>
                   </div>
-                  {/* <div className="col-md-4 col-sm-4">
+                  <div className="col-md-4 col-sm-4">
                     <div className="resume-details" data-wow-delay=".4s">
                       <div className="resume-hover"></div>
                       <div className="resume-main">
@@ -424,14 +416,20 @@ const Home = () => {
                           className="fa fa-graduation-cap resume-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Master Degree</h3>
-                        <h2>2021-2023</h2>
+                        <h3>Training &amp; Skill</h3>
+                        <h2>2022-2022</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        <p>
+                          Learning Full-Stack Web Development from{" "}
+                          <a href="https://masaischool.com/" target="_blank">
+                            Masai School
+                          </a>
+                          , Bengaluru, India.
+                        </p>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
                 <div className="row main-row wow fadeIn">
                   <div className="col-md-12">
@@ -455,7 +453,15 @@ const Home = () => {
                           className="fa fa-building exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Patel iinfo</h3>
+                        <h3>
+                          <a
+                            href="https://patelgtech.com/"
+                            target="_blank"
+                            style={{ color: "#4d4d4d" }}
+                          >
+                            Patel G Tech LLP
+                          </a>
+                        </h3>
                         <h4>Repub Member</h4>
                         <h2>2019-2020</h2>
                         <div className="underline1"></div>
@@ -475,7 +481,15 @@ const Home = () => {
                           className="fa fa-building exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Uaguria Software</h3>
+                        <h3>
+                          <a
+                            href="https://uaguria.com/"
+                            target="_blank"
+                            style={{ color: "#4d4d4d" }}
+                          >
+                            Uaguria Software
+                          </a>
+                        </h3>
                         <h4>Web Developer</h4>
                         <h2>2020-Present</h2>
                         <div className="underline1"></div>
