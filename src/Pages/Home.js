@@ -1251,7 +1251,7 @@ const Home = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>Portfolio</h3>
-                        <p>https://sanajitjana.herokuapp.com/</p>
+                        <p>https://sanajitjana.github.io/</p>
                       </div>
                     </div>
                   </div>
