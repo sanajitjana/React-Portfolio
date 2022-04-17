@@ -491,10 +491,13 @@ const Home = () => {
                           </a>
                         </h3>
                         <h4>Web Developer</h4>
-                        <h2>2020-Present</h2>
+                        <h2>2020-2022</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Currently I am working here as a Web Developer</p>
+                        <p>
+                          Here, I was working as a Web Developer &amp; IT
+                          Consultant Person
+                        </p>
                       </div>
                     </div>
                   </div>
