@@ -322,19 +322,19 @@ const Home = () => {
                       <div className="col">
                         <ul id="skill-main">
                           <li>
-                            <h3>HTML / CSS / JS - 97%</h3>
+                            <h3>HTML / CSS - 97%</h3>
                           </li>
                           <li>
                             <h3>UI / UX - 92%</h3>
                           </li>
                           <li>
-                            <h3>React JS - 90%</h3>
+                            <h3>React JS - 30%</h3>
                           </li>
                           <li>
                             <h3>Laravel - 93%</h3>
                           </li>
                           <li>
-                            <h3>MySQL / MongoDB - 95%</h3>
+                            <h3>MySQL - 95%</h3>
                           </li>
                         </ul>
                       </div>
