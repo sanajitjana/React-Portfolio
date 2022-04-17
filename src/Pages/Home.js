@@ -421,7 +421,7 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Learning Full-Stack Web Development from{" "}
+                          Currently learning Full-Stack Web Development from{" "}
                           <a href="https://masaischool.com/" target="_blank">
                             Masai School
                           </a>
