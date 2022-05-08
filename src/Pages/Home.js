@@ -946,7 +946,10 @@ const Home = () => {
                   <div className="row">
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
-                        <a href="/react-hooks">
+                        <a
+                          href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                          target="_blank"
+                        >
                           <img
                             src="assets/img/blog/blog1.png"
                             alt="React hooks were introduced in version 16.8"
@@ -955,7 +958,8 @@ const Home = () => {
                         </a>
                         <div className="blog-head">
                           <a
-                            href="/react-hooks"
+                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                            target="_blank"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
@@ -975,7 +979,11 @@ const Home = () => {
                             is not different, react is a programming language
                             and hooks is ...
                           </p>
-                          <a href="/react-hooks" className="about-link-2">
+                          <a
+                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                            target="_blank"
+                            className="about-link-2"
+                          >
                             Read More
                           </a>
                         </div>
@@ -983,7 +991,10 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
-                        <a href="/ui-ux">
+                        <a
+                          href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
+                          target="_blank"
+                        >
                           <img
                             src="assets/img/blog/blog2.png"
                             alt="The importance of UI/UX"
@@ -991,7 +1002,11 @@ const Home = () => {
                           />
                         </a>
                         <div className="blog-head">
-                          <a href="/ui-ux" style={{ textDecoration: "none" }}>
+                          <a
+                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
+                            target="_blank"
+                            style={{ textDecoration: "none" }}
+                          >
                             <h3>
                               <strong>
                                 The importance of UI/UX | Software Engineering
@@ -1009,7 +1024,11 @@ const Home = () => {
                             includes others, such as voice-controlled ones, a
                             keyboard and the appearance ...
                           </p>
-                          <a href="/ui-ux" className="about-link-2">
+                          <a
+                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
+                            target="_blank"
+                            className="about-link-2"
+                          >
                             Read More
                           </a>
                         </div>
@@ -1017,7 +1036,10 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
-                        <a href="/form-example">
+                        <a
+                          href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
+                          target="_blank"
+                        >
                           <img
                             src="assets/img/blog/blog3.png"
                             alt="blog-img"
@@ -1026,7 +1048,8 @@ const Home = () => {
                         </a>
                         <div className="blog-head">
                           <a
-                            href="/form-example"
+                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
+                            target="_blank"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
@@ -1045,7 +1068,11 @@ const Home = () => {
                             to do this. Because in this post example, i will
                             create contact-list ...
                           </p>
-                          <a href="/form-example" className="about-link-2">
+                          <a
+                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
+                            target="_blank"
+                            className="about-link-2"
+                          >
                             Read More
                           </a>
                         </div>
