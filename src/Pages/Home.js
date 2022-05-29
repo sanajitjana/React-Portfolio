@@ -24,17 +24,6 @@ const Home = () => {
                       </h1>
                       <div className="about-social-icon text-center">
                         <ul className="about-social">
-                          <li className="wow fadeIn" data-wow-delay=".2s">
-                            <a
-                              href="https://github.com/sanajitjana"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-github"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
                           <li className="wow fadeIn" data-wow-delay=".4s">
                             <a
                               href="https://www.linkedin.com/in/sanajitjana01"
@@ -42,6 +31,17 @@ const Home = () => {
                             >
                               <i
                                 className="fa fa-linkedin"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                          <li className="wow fadeIn" data-wow-delay=".2s">
+                            <a
+                              href="https://github.com/sanajitjana"
+                              target="newtab"
+                            >
+                              <i
+                                className="fa fa-github"
                                 aria-hidden="true"
                               ></i>
                             </a>
@@ -70,13 +70,10 @@ const Home = () => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay="1s">
                             <a
-                              href="https://sanajitjana.medium.com/"
+                              href="https://dev.to/sanajitjana"
                               target="newtab"
                             >
-                              <i
-                                className="fa fa-medium"
-                                aria-hidden="true"
-                              ></i>
+                              <i className="fa fa-book" aria-hidden="true"></i>
                             </a>
                           </li>
                         </ul>
@@ -526,7 +523,7 @@ const Home = () => {
 
         {/* <!-- ================================ WORK =============================== --> */}
 
-        <div id="work">
+        {/* <div id="work">
           <div className="work-content">
             <div className="work-grid">
               <div className="container">
@@ -659,7 +656,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- ============================================== SERVICE ===================================================== --> */}
 
@@ -1127,7 +1124,7 @@ const Home = () => {
             <div className="contact-grid">
               <div className="contact-form-details wow fadeIn">
                 <div className="container">
-                  <div className="row contact-row">
+                  {/* <div className="row contact-row">
                     <div className="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-1 contact-col">
                       <h3>Write Your Message Here</h3>
                       <div className="contact-form">
@@ -1209,7 +1206,6 @@ const Home = () => {
                               style={{ display: "none" }}
                             ></div>
                           </div>
-                          {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */}
                           <div
                             style={{ position: "absolute", left: "-5000px" }}
                             aria-hidden="true"
@@ -1238,7 +1234,7 @@ const Home = () => {
                         </form>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="row contact-info-row text-center wow fadeIn">
                     <div className="col-md-3 col-sm-6 contact-colamn">
                       <div className="contact-col-info" data-wow-delay=".2s">
@@ -1305,12 +1301,13 @@ const Home = () => {
                     <div class="google-maps">
                       <div class="map-wrap">
                         <iframe
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471218.3856308042!2d88.04954359381742!3d22.676385747131917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1629561163421!5m2!1sen!2sin"
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5630603985!2d88.0495328251319!3d22.675752087592436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1653845709428!5m2!1sen!2sin"
                           width="100%"
                           height="450"
                           style={{ border: "0" }}
                           allowfullscreen=""
                           loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
                         ></iframe>
                       </div>
                     </div>
