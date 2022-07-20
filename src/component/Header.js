@@ -50,9 +50,6 @@ function Header() {
                         <a href="/#resume">Education</a>
                       </li>
                       <li>
-                        <a href="/#work">Work</a>
-                      </li>
-                      <li>
                         <a href="/#service">Service</a>
                       </li>
                       <li>
