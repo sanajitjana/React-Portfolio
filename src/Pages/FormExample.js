@@ -75,19 +75,21 @@ const FormExample = () => {
                           8 version.
                         </p>
                         <p>
-                          Visit my{" "}
+                          Visit my
                           <a
                             href="https://github.com/sanajitjana"
                             title="Sanajit Jana"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Github Profile
-                          </a>{" "}
-                          and do checkout this{" "}
+                          </a>
+                          and do checkout this
                           <a
                             href="https://github.com/sanajitjana/laravel-curd"
                             title="Laravel Curd"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             repository
                           </a>
@@ -276,7 +278,11 @@ const FormExample = () => {
                           <a href="/ui-ux">Previous Post</a>
                         </li>
                         <li>
-                          <a href="https://dev.to/sanajitjana" target="_blank">
+                          <a
+                            href="https://dev.to/sanajitjana"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             Next Post
                           </a>
                         </li>

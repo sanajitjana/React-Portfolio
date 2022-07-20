@@ -396,7 +396,11 @@ const Home = () => {
                         <div className="underline2"></div>
                         <p>
                           Achieved my Graduation Degree from{" "}
-                          <a href="https://www.cclms.org/" target="_blank">
+                          <a
+                            href="https://www.cclms.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             CCLMS (Contai College of Learning and Management
                             Science)
                           </a>
@@ -419,7 +423,11 @@ const Home = () => {
                         <div className="underline2"></div>
                         <p>
                           Currently learning Full-Stack Web Development from{" "}
-                          <a href="https://masaischool.com/" target="_blank">
+                          <a
+                            href="https://masaischool.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             Masai School
                           </a>
                           , Bengaluru, India.
@@ -454,6 +462,7 @@ const Home = () => {
                           <a
                             href="https://patelgtech.com/"
                             target="_blank"
+                            rel="noopener noreferrer"
                             style={{ color: "#4d4d4d" }}
                           >
                             Patel G Tech LLP
@@ -482,6 +491,7 @@ const Home = () => {
                           <a
                             href="https://uaguria.com/"
                             target="_blank"
+                            rel="noopener noreferrer"
                             style={{ color: "#4d4d4d" }}
                           >
                             Uaguria Software
@@ -946,6 +956,7 @@ const Home = () => {
                         <a
                           href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <img
                             src="assets/img/blog/blog1.png"
@@ -957,6 +968,7 @@ const Home = () => {
                           <a
                             href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
                             target="_blank"
+                            rel="noopener noreferrer"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
@@ -979,6 +991,7 @@ const Home = () => {
                           <a
                             href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
                             target="_blank"
+                            rel="noopener noreferrer"
                             className="about-link-2"
                           >
                             Read More
@@ -991,6 +1004,7 @@ const Home = () => {
                         <a
                           href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <img
                             src="assets/img/blog/blog2.png"
@@ -1002,6 +1016,7 @@ const Home = () => {
                           <a
                             href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
                             target="_blank"
+                            rel="noopener noreferrer"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
@@ -1024,6 +1039,7 @@ const Home = () => {
                           <a
                             href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
                             target="_blank"
+                            rel="noopener noreferrer"
                             className="about-link-2"
                           >
                             Read More
@@ -1036,6 +1052,7 @@ const Home = () => {
                         <a
                           href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <img
                             src="assets/img/blog/blog3.png"
@@ -1047,6 +1064,7 @@ const Home = () => {
                           <a
                             href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
                             target="_blank"
+                            rel="noopener noreferrer"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
@@ -1068,6 +1086,7 @@ const Home = () => {
                           <a
                             href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
                             target="_blank"
+                            rel="noopener noreferrer"
                             className="about-link-2"
                           >
                             Read More
@@ -1134,7 +1153,7 @@ const Home = () => {
                           id="mc-embedded-subscribe-form contactForm"
                           name="mc-embedded-subscribe-form"
                           className="contact-form shake validate"
-                          target="_blank"
+                          target="_blank" 
                           data-toggle="validator"
                           novalidate
                         >
@@ -1301,6 +1320,7 @@ const Home = () => {
                     <div class="google-maps">
                       <div class="map-wrap">
                         <iframe
+                          title="google-maps"
                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5630603985!2d88.0495328251319!3d22.675752087592436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1653845709428!5m2!1sen!2sin"
                           width="100%"
                           height="450"
