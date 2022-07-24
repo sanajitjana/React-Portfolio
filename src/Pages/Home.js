@@ -101,14 +101,15 @@ const Home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        In present time i'm working on multi-role, as Web
-                        Developer i design and create various website. And as
-                        UI/UX Designer i create many design for Web Application
-                        and Mobile Application. I create the beauty of the site.
-                        I'm responsible for the site's technical aspects, such
-                        as its performance and capacity, which are measures of a
-                        website's speed and how much traffic the site can
-                        handle. In addition, I also create content for the site.
+                        At present time I'm working on a multi-role, as a Web
+                        Developer I design and create various websites. And as
+                        UI/UX Designer I create many designs for Web
+                        Applications and Mobile applications. I create the
+                        beauty of the site. I'm responsible for the site's
+                        technical aspects, such as its performance and capacity,
+                        which are measures of a website's speed and how much
+                        traffic the site can handle. In addition, I also create
+                        content for the site.
                       </p>
                     </div>
                   </div>
@@ -123,7 +124,7 @@ const Home = () => {
                       <h3>Working Hard</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Always belief in hard-work in my profession</p>
+                      <p>Always believe in hard-work in my profession</p>
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
@@ -156,7 +157,7 @@ const Home = () => {
                       <h3>Web Development</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Create all types of modern web development.</p>
+                      <p>Created all types of modern web development.</p>
                     </div>
                   </div>
                 </div>
@@ -190,19 +191,20 @@ const Home = () => {
                         web presence or an employer looking to hire, you can get
                         in touch with me{" "}
                         <a className="underline2" href="#contact">
+                          {" "}
                           here.
                         </a>{" "}
-                        I design, build digital products with simple and
-                        beautiful code. I'm Specializing in custom web theme
-                        development and I love what I do.
+                        I design and build digital products with simple and
+                        beautiful code. I specialize in custom web theme
+                        development and love what I do.
                         <br />
                         <br />
-                        Since beginning my journey as a web developer nearly 4
-                        years ago, I've done remote work for agencies, consulted
-                        for startups, and collaborated with talented people to
-                        create digital products for both business and consumer
-                        use. I'm quietly confident, naturally curious, and
-                        perpetually working on improving my chops one design
+                        Since beginning my journey as a web developer in my
+                        college days, I've done remote work for agencies,
+                        consulted for startups, and collaborated with talented
+                        people to create digital products for both business and
+                        consumer use. I'm quietly confident, naturally curious,
+                        and perpetually working on improving my chops one design
                         problem at a time.
                       </p>
                       <a
@@ -307,7 +309,7 @@ const Home = () => {
                       user experience. Front End Development is building out the
                       visual components of a website. Using HTML, CSS, and
                       Javascript, I build fast, interactive websites. This also
-                      may include a CMS, API's or other integrations. The work
+                      may include a CMS, apis, or other integrations. The work
                       that I am most interested in is 0-1 work (helping you get
                       your idea into the world).
                     </p>
@@ -328,7 +330,7 @@ const Home = () => {
                             <h3>React JS - 30%</h3>
                           </li>
                           <li>
-                            <h3>Laravel - 93%</h3>
+                            <h3>PHP (Laravel) - 93%</h3>
                           </li>
                           <li>
                             <h3>MySQL - 95%</h3>
@@ -473,8 +475,8 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          I did an intership at Patel Info as a Repub Team
-                          Member
+                          I did an internship at PATEL G TECH LLP as a
+                          Republication Team Member
                         </p>
                       </div>
                     </div>
@@ -502,8 +504,8 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Here, I was working as a Web Developer &amp; IT
-                          Consultant Person
+                          At Uaguria Software, I was working as a Web Developer
+                          &amp; IT Consultant Person
                         </p>
                       </div>
                     </div>
@@ -839,8 +841,7 @@ const Home = () => {
                           <div className="underline1"></div>
                           <div className="underline2"></div>
                           <p>
-                            People I've worked with have said some nice
-                            things...
+                            People I've worked with have said some nice things
                           </p>
                         </div>
                       </div>
