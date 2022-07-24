@@ -85,7 +85,8 @@ body {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
-  background-color: #00565d;
+  background-image: linear-gradient(to right, #01373c, #005c63, #01373b);
+  /* background-color: #00565d; */
 }
 .navbar-default.small {
   background-color: white;
@@ -122,7 +123,7 @@ body {
   padding: 10px 0px;
 }
 .navbar-default.small .navbar-nav > li > a {
-  color: black;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #efd236;
@@ -200,7 +201,6 @@ body {
   letter-spacing: 2px;
   font-weight: 900;
 }
-
 .home-text h3 {
   font-size: 29px;
   color: #f8f8f8;
@@ -469,7 +469,7 @@ section:nth-of-type(2) {
   border: 1px solid white;
 }
 .about-social li a:hover {
-  color: #efd236;
+  color: #005960;
 }
 .about-details {
   margin: 0px 30px;
