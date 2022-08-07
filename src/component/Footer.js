@@ -22,7 +22,10 @@ function Footer() {
               </a>
             </li>
             <li className="wow fadeIn" data-wow-delay=".6s">
-              <a href="https://www.linkedin.com/in/sanajitjana" target="newtab">
+              <a
+                href="https://www.linkedin.com/in/sanajitjana01"
+                target="newtab"
+              >
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </li>
