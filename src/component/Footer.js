@@ -9,10 +9,7 @@ function Footer() {
         <div className="about-social-icon text-center">
           <ul className="about-social">
             <li className="wow fadeIn" data-wow-delay=".2s">
-              <a
-                href="https://www.facebook.com/sanajitjanadeveloper"
-                target="newtab"
-              >
+              <a href="https://www.facebook.com/sanajitjana01/" target="newtab">
                 <i className="fa fa-facebook" aria-hidden="true"></i>
               </a>
             </li>
