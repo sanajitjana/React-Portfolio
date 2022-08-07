@@ -352,6 +352,20 @@
         e.preventDefault();
       });
     </script>
+
+    <!-- don't copy -->
+    <script>
+      $("body").bind("copy paste cut drag drop", function (e) {
+        e.preventDefault();
+      });
+
+      $("input[type=text],textarea").bind(
+        "copy paste cut drag drop",
+        function (e) {
+          e.preventDefault();
+        }
+      );
+    </script>
   </body>
   <!-- end body -->
 </html>
