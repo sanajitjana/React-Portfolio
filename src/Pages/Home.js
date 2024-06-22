@@ -26,7 +26,7 @@ const Home = () => {
                         <ul className="about-social">
                           <li className="wow fadeIn" data-wow-delay=".4s">
                             <a
-                              href="https://www.linkedin.com/in/sanajitjana01"
+                              href="https://www.linkedin.com/in/sanajitjana01?ref=https://sanajitjana.github.io"
                               target="newtab"
                             >
                               <i
@@ -37,7 +37,7 @@ const Home = () => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".2s">
                             <a
-                              href="https://github.com/sanajitjana"
+                              href="https://github.com/sanajitjana?ref=https://sanajitjana.github.io"
                               target="newtab"
                             >
                               <i
@@ -48,7 +48,7 @@ const Home = () => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".6s">
                             <a
-                              href="https://www.instagram.com/sanajitjana01/"
+                              href="https://www.instagram.com/sanajitjana01?ref=https://sanajitjana.github.io"
                               target="newtab"
                             >
                               <i
@@ -59,7 +59,7 @@ const Home = () => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".8s">
                             <a
-                              href="https://twitter.com/sanajitjana01"
+                              href="https://twitter.com/sanajitjana01?ref=https://sanajitjana.github.io"
                               target="newtab"
                             >
                               <i
@@ -70,7 +70,7 @@ const Home = () => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay="1s">
                             <a
-                              href="https://dev.to/sanajitjana"
+                              href="https://dev.to/sanajitjana?ref=https://sanajitjana.github.io"
                               target="newtab"
                             >
                               <i className="fa fa-book" aria-hidden="true"></i>
@@ -180,32 +180,26 @@ const Home = () => {
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h3>Hello! This is Sanajit</h3>
+                        <h3>Hi! I'm Sanajit</h3>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        I am a web developer from Kolkata, India. I enjoy
-                        building everything from small business sites to rich
-                        interactive web apps. if you are a business seeking a
-                        web presence or an employer looking to hire, you can get
-                        in touch with me{" "}
+                        I am a software developer based in Kolkata, India,
+                        currently working at Mplify Tech with over 3.5 years of
+                        experience. I specialize in backend development,
+                        crafting everything from small business websites to
+                        complex, interactive web applications. Whether you're a
+                        business seeking a robust web presence or an employer
+                        looking to hire, you can connect with me{" "}
                         <a className="underline2" href="#contact">
-                          {" "}
                           here.
-                        </a>{" "}
-                        I design and build digital products with simple and
-                        beautiful code. I specialize in custom web theme
-                        development and love what I do.
+                        </a>
                         <br />
-                        <br />
-                        Since beginning my journey as a web developer in my
-                        college days, I've done remote work for agencies,
-                        consulted for startups, and collaborated with talented
-                        people to create digital products for both business and
-                        consumer use. I'm quietly confident, naturally curious,
-                        and perpetually working on improving my chops one design
-                        problem at a time.
+                        <br />I take pride in designing and building digital
+                        products with clean, elegant code. My expertise includes
+                        custom web theme development, and I'm passionate about
+                        delivering exceptional user experiences.
                       </p>
                       <a
                         className="about-link-1"
@@ -232,10 +226,10 @@ const Home = () => {
                           className="fa fa-pencil-square-o stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0021</h3>
+                        <h3 className="Count">32+</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Web Design Completed</p>
+                        <p>Project Completed</p>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
@@ -244,7 +238,7 @@ const Home = () => {
                           className="fa fa-crop stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0040</h3>
+                        <h3 className="Count">25+</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>UI/UX Design Done</p>
@@ -256,7 +250,7 @@ const Home = () => {
                           className="fa fa-bolt stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0015</h3>
+                        <h3 className="Count">15+</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Website Created</p>
@@ -268,7 +262,7 @@ const Home = () => {
                           className="fa fa-coffee stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0085</h3>
+                        <h3 className="Count">100+</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Cups Coffee Taken</p>
@@ -303,15 +297,15 @@ const Home = () => {
                 <div className="col-md-6">
                   <div className="skill-details text-left">
                     <p>
-                      UI/UX involves planning and iterating a site's structure
-                      and layout. Once the proper information architecture is in
-                      place, I design the visual layer to create a beautiful
-                      user experience. Front End Development is building out the
-                      visual components of a website. Using HTML, CSS, and
-                      Javascript, I build fast, interactive websites. This also
-                      may include a CMS, apis, or other integrations. The work
-                      that I am most interested in is 0-1 work (helping you get
-                      your idea into the world).
+                      I specialize in backend development, with a strong focus
+                      on architecting robust and efficient server-side
+                      applications and APIs. My expertise includes designing and
+                      implementing scalable solutions that effectively manage
+                      complex business logic, data operations, and integration
+                      requirements. I am passionate about leveraging
+                      cutting-edge technologies to deliver high-performance and
+                      reliable backend systems that meet the evolving needs of
+                      modern applications.
                     </p>
                   </div>
                 </div>
@@ -321,19 +315,19 @@ const Home = () => {
                       <div className="col">
                         <ul id="skill-main">
                           <li>
-                            <h3>HTML / CSS - 97%</h3>
+                            <h3>Java / Php - 92%</h3>
                           </li>
                           <li>
-                            <h3>UI / UX - 92%</h3>
+                            <h3>HTML / CSS / JavaScript - 90%</h3>
                           </li>
                           <li>
-                            <h3>React JS - 30%</h3>
+                            <h3>React JS - 60%</h3>
                           </li>
                           <li>
-                            <h3>PHP (Laravel) - 93%</h3>
+                            <h3>UI / UX - 70%</h3>
                           </li>
                           <li>
-                            <h3>MySQL - 95%</h3>
+                            <h3>GIT / Github / Docker - 85%</h3>
                           </li>
                         </ul>
                       </div>
@@ -378,8 +372,8 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Completed my school life from Haludbari High School
-                          (H.S.), Khejuri, West Bengal, India.
+                          I completed my secondary education at Haludbari High
+                          School (H.S.) in Khejuri, West Bengal, India.
                         </p>
                       </div>
                     </div>
@@ -399,7 +393,7 @@ const Home = () => {
                         <p>
                           Achieved my Graduation Degree from{" "}
                           <a
-                            href="https://www.cclms.org/"
+                            href="https://www.cclms.org?ref=https://sanajitjana.github.io"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -424,9 +418,10 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Currently learning Full-Stack Web Development from{" "}
+                          I have successfully completed my Full-Stack Web
+                          Development training at{" "}
                           <a
-                            href="https://masaischool.com/"
+                            href="https://masaischool.com?ref=https://sanajitjana.github.io"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -445,14 +440,15 @@ const Home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        I don’t like to define myself by the work I’ve done. I
-                        define myself by the work I want to do.
+                        My career is a canvas of innovation and growth, where
+                        each experience paints a new stroke of achievement and
+                        learning.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="row love-row">
-                  <div className="col-md-6 col-sm-12">
+                  <div className="col-md-4 col-sm-12">
                     <div className="exp-details" data-wow-delay=".2s">
                       <div className="exp-hover"></div>
                       <div className="exp-main">
@@ -462,7 +458,7 @@ const Home = () => {
                         ></i>
                         <h3>
                           <a
-                            href="https://patelgtech.com/"
+                            href="https://patelgtech.com?ref=https://sanajitjana.github.io"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "#4d4d4d" }}
@@ -475,13 +471,13 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          I did an internship at PATEL G TECH LLP as a
-                          Republication Team Member
+                          During my internship at PATEL G TECH LLP, I
+                          contributed as a member of the Republication Team.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 col-sm-12">
+                  <div className="col-md-4 col-sm-12">
                     <div className="exp-details" data-wow-delay=".3s">
                       <div className="exp-hover"></div>
                       <div className="exp-main">
@@ -491,7 +487,7 @@ const Home = () => {
                         ></i>
                         <h3>
                           <a
-                            href="https://uaguria.com/"
+                            href="https://uaguria.com?ref=https://sanajitjana.github.io"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "#4d4d4d" }}
@@ -504,29 +500,32 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          At Uaguria Software, I was working as a Web Developer
-                          &amp; IT Consultant Person
+                          At Uaguria Software, I served as a web developer and
+                          IT consultant, contributing with versatility.
                         </p>
                       </div>
                     </div>
                   </div>
-                  {/* <div className="col-md-4 col-sm-4">
+                  <div className="col-md-4 col-sm-12">
                     <div className="exp-details" data-wow-delay=".4s">
                       <div className="exp-hover"></div>
                       <div className="exp-main">
                         <i
-                          className="fa fa-cogs exp-icon"
+                          className="fa fa-building exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Supreme Company</h3>
-                        <h4>Designer &amp; Developer</h4>
-                        <h2>2013-2016</h2>
+                        <h3>Mplify Tech</h3>
+                        <h4>Software Developer</h4>
+                        <h2>2023-Present</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        <p>
+                          At Mplify Tech, I serve as a Software Developer,
+                          innovating and enhancing software solutions.
+                        </p>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -882,7 +881,7 @@ const Home = () => {
                                     <p>
                                       “Sanajit was a real pleasure to work with
                                       and we look forward to working with him
-                                      again. He’s definitely the kind of
+                                      again. He's definitely the kind of
                                       developer you can trust with a project
                                       from start to finish.”
                                       <br />
@@ -955,7 +954,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
                         <a
-                          href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                          href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2?ref=https://sanajitjana.github.io"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -967,7 +966,7 @@ const Home = () => {
                         </a>
                         <div className="blog-head">
                           <a
-                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2?ref=https://sanajitjana.github.io"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ textDecoration: "none" }}
@@ -990,7 +989,7 @@ const Home = () => {
                             and hooks is ...
                           </p>
                           <a
-                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2?ref=https://sanajitjana.github.io"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="about-link-2"
@@ -1003,7 +1002,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
                         <a
-                          href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
+                          href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n?ref=https://sanajitjana.github.io"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -1015,7 +1014,7 @@ const Home = () => {
                         </a>
                         <div className="blog-head">
                           <a
-                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
+                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n?ref=https://sanajitjana.github.io"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ textDecoration: "none" }}
@@ -1038,7 +1037,7 @@ const Home = () => {
                             keyboard and the appearance ...
                           </p>
                           <a
-                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
+                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n?ref=https://sanajitjana.github.io"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="about-link-2"
@@ -1051,7 +1050,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
                         <a
-                          href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
+                          href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc?ref=https://sanajitjana.github.io"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -1063,7 +1062,7 @@ const Home = () => {
                         </a>
                         <div className="blog-head">
                           <a
-                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
+                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc?ref=https://sanajitjana.github.io"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ textDecoration: "none" }}
@@ -1085,7 +1084,7 @@ const Home = () => {
                             create contact-list ...
                           </p>
                           <a
-                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
+                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc?ref=https://sanajitjana.github.io"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="about-link-2"
@@ -1097,7 +1096,7 @@ const Home = () => {
                     </div>
                     <div className="row" style={{ textAlign: "center" }}>
                       <a
-                        href="https://dev.to/sanajitjana"
+                        href="https://dev.to/sanajitjana?ref=https://sanajitjana.github.io"
                         target="newtab"
                         className="btn btn-warning"
                         style={{
@@ -1132,7 +1131,7 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          I’m always open to discussing product design work or
+                          I'm always open to discussing product design work or
                           partnership opportunities.
                         </p>
                       </div>
@@ -1144,7 +1143,7 @@ const Home = () => {
             <div className="contact-grid">
               <div className="contact-form-details wow fadeIn">
                 <div className="container">
-                  {/* <div className="row contact-row">
+                  <div className="row contact-row">
                     <div className="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-1 contact-col">
                       <h3>Write Your Message Here</h3>
                       <div className="contact-form">
@@ -1154,7 +1153,7 @@ const Home = () => {
                           id="mc-embedded-subscribe-form contactForm"
                           name="mc-embedded-subscribe-form"
                           className="contact-form shake validate"
-                          target="_blank" 
+                          target="_blank"
                           data-toggle="validator"
                           novalidate
                         >
@@ -1254,9 +1253,9 @@ const Home = () => {
                         </form>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                   <div className="row contact-info-row text-center wow fadeIn">
-                    <div className="col-md-3 col-sm-6 contact-colamn">
+                    <div className="col-md-4 col-sm-6 contact-colamn">
                       <div className="contact-col-info" data-wow-delay=".2s">
                         <i
                           className="fa fa-map-marker contact-icon"
@@ -1266,7 +1265,7 @@ const Home = () => {
                         <p>Kolkata, West Bengal, India</p>
                       </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 contact-colamn">
+                    <div className="col-md-4 col-sm-6 contact-colamn">
                       <div className="contact-col-info" data-wow-delay=".4s">
                         <i
                           className="fa fa-envelope contact-icon"
@@ -1274,44 +1273,35 @@ const Home = () => {
                         ></i>
                         <h3>Email</h3>
                         <a
-                          href="mailto:contact.sanajitjana@gmail.com"
+                          href="mailto:mail.sanajitjana@gmail.com"
                           style={{
                             color: "black",
                             textDecoration: "none",
                             fontSize: "17px",
                           }}
                         >
-                          contact.sanajitjana@gmail.com
+                          mail.sanajitjana@gmail.com
                         </a>
                       </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 contact-colamn">
-                      <div className="contact-col-info" data-wow-delay=".6s">
-                        <i
-                          className="fa fa-mobile contact-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Phone</h3>
-                        <a
-                          href="tel:8372876775"
-                          style={{
-                            color: "black",
-                            textDecoration: "none",
-                            fontSize: "17px",
-                          }}
-                        >
-                          +91 8372876775
-                        </a>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 contact-colamn">
+                    <div className="col-md-4 col-sm-6 contact-colamn">
                       <div className="contact-col-info" data-wow-delay=".6s">
                         <i
                           className="fa fa-television contact-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Portfolio</h3>
-                        <p>https://sanajitjana.github.io/</p>
+                        <h3>Latest Portfolio</h3>
+                        <a
+                          href="https://sanajitjana.github.io"
+                          target="_blank"
+                          style={{
+                            color: "black",
+                            textDecoration: "none",
+                            fontSize: "17px",
+                          }}
+                        >
+                          https://sanajitjana.github.io
+                        </a>
                       </div>
                     </div>
                   </div>

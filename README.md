@@ -26,17 +26,26 @@ Welcome to my personal portfolio built with React! This portfolio showcases my p
 To run this project locally, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/sanajitjana/React-Portfolio.git
    cd React-Portfolio
 
+   ```
+
 2. Install the dependencies:
+
    ```bash
    npm install
 
+   ```
+
 3. Start the development server:
+
    ```bash
    npm start
+
+   ```
 
 4. Open your browser and navigate to http://localhost:3000
 
@@ -79,8 +88,6 @@ Feel free to reach out if you have any questions or suggestions:
 - Portfolio: [Latest Portfolio](https://sanajitjana.github.io)
 
 Thank you for visiting my portfolio!
-
-![image](https://user-images.githubusercontent.com/76105799/183304704-d355d34b-5fdf-40bd-98ed-4cae92a3e94a.png)
 
 ## License
 
