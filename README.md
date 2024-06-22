@@ -1,7 +1,3 @@
-# React Portfolio
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -88,4 +84,4 @@ Thank you for visiting my portfolio!
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for details. ![License](https://img.shields.io/badge/license-MIT-blue.svg)
