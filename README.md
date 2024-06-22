@@ -8,6 +8,7 @@
 - [Contributing](#contributing)
 - [Contact](#contact)
 - [License](#license)
+- [Preview](#preview)
 
 ## Introduction
 
@@ -92,3 +93,7 @@ Thank you for visiting my portfolio!
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details. ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Preview
+
+![image](https://user-images.githubusercontent.com/76105799/183304704-d355d34b-5fdf-40bd-98ed-4cae92a3e94a.png)
