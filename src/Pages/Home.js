@@ -391,7 +391,7 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Achieved my Graduation Degree from{" "}
+                          Achieved Graduation from{" "}
                           <a
                             href="https://www.cclms.org?ref=https://sanajitjana.github.io"
                             target="_blank"
