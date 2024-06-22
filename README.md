@@ -96,4 +96,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Preview
 
-![image](https://user-images.githubusercontent.com/76105799/183304704-d355d34b-5fdf-40bd-98ed-4cae92a3e94a.png)
+![image](https://github.com/sanajitjana/React-Portfolio/assets/76105799/ce8ca83f-7d48-4690-96e4-90ac0123870f)
