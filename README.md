@@ -8,6 +8,7 @@
 - [Contributing](#contributing)
 - [Contact](#contact)
 - [License](#license)
+- [Hacktoberfest](#hacktoberfest)
 - [Preview](#preview)
 
 ## Introduction
@@ -84,7 +85,7 @@ Don't forget to give the project a star! Thanks again!
 
 Feel free to reach out if you have any questions or suggestions:
 
-- Email: mail.sanajitjana@gmail.com
+- Email: dev.sanajitjana@gmail.com
 - LinkedIn: [Sanajit Jana](https://www.linkedin.com/in/sanajitjana01)
 - Portfolio: [Latest Portfolio](https://sanajitjana.github.io)
 
@@ -93,6 +94,17 @@ Thank you for visiting my portfolio!
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details. ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Hacktoberfest
+
+Welcome Hacktoberfest contributors! We’re excited to be a part of Hacktoberfest 2025 and invite developers of all levels to contribute to this project.
+
+**How to Participate:**
+- Pick any issue labeled [`hacktoberfest`](https://github.com/sanajitjana/React-Portfolio/labels/hacktoberfest), [`good first issue`](https://github.com/sanajitjana/React-Portfolio/labels/good%20first%20issue), or [`help wanted`](https://github.com/sanajitjana/React-Portfolio/labels/help%20wanted).
+- Read our [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and setup instructions.
+- Make your pull request in October and ensure it follows our code standards.
+
+**We offer support and code reviews for all contributors—beginners are especially welcome!**
 
 ## Preview
 
