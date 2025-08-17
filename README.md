@@ -108,4 +108,4 @@ Welcome Hacktoberfest contributors! We’re excited to be a part of Hacktoberfes
 
 ## Preview
 
-![image](https://github.com/sanajitjana/React-Portfolio/assets/76105799/ce8ca83f-7d48-4690-96e4-90ac0123870f)
+![image](https://github.com/user-attachments/assets/962ee653-ebc8-44c3-a12b-8dffe87cb269)
