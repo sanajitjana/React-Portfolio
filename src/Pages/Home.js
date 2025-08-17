@@ -97,7 +97,7 @@ const Home = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>What I do</h3>
+                      <h3>About Me</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
@@ -1273,14 +1273,14 @@ const Home = () => {
                         ></i>
                         <h3>Email</h3>
                         <a
-                          href="mailto:mail.sanajitjana@gmail.com"
+                          href="mailto:dev.sanajitjana@gmail.com"
                           style={{
                             color: "black",
                             textDecoration: "none",
                             fontSize: "17px",
                           }}
                         >
-                          mail.sanajitjana@gmail.com
+                          dev.sanajitjana@gmail.com
                         </a>
                       </div>
                     </div>
