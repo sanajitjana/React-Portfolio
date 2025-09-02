@@ -16,15 +16,24 @@
 
   /*============================= Smoothscroll js ==============================*/
 
-  $(".navbar-default").on("click", "a[href^='#']", function (event) {
+  $(".navbar-default").on("click", "a[href*='#']", function (event) {
     var $anchor = $(this);
-    var targetSelector = $anchor.attr("href");
-    if (!targetSelector || targetSelector === "#") return;
+    var rawHref = $anchor.attr("href") || "";
+    var hashIndex = rawHref.indexOf('#');
+    var targetSelector = hashIndex >= 0 ? rawHref.substring(hashIndex) : "";
+    if (!targetSelector || targetSelector === "#") {
+      return; // let default work for empty hashes if any
+    }
     var $target = $(targetSelector);
-    if (!$target.length || !$target.offset()) return;
+    if (!$target.length || !$target.offset()) {
+      return; // target not found
+    }
     event.preventDefault();
+    event.stopPropagation();
+    if (typeof event.stopImmediatePropagation === 'function') event.stopImmediatePropagation();
 
-    var destination = Math.max(0, $target.offset().top - 1);
+    var headerHeight = ($('.navbar:visible').outerHeight() || 0);
+    var destination = Math.max(0, $target.offset().top - headerHeight - 8);
     $("html, body")
       .stop()
       .animate(

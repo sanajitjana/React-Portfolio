@@ -10,14 +10,7 @@
     
 
     /*============================= Smoothscroll js ==============================*/
-    
-    $('.navbar-default').on('click', 'a', function (event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 1
-        }, 1000);
-        event.preventDefault();
-    });
+    // Removed duplicate smooth-scroll handler to prevent double navigation
 
     /*====================================== jquery scroll spy ========================================*/
     
