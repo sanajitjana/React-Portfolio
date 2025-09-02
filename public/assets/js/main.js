@@ -16,24 +16,89 @@
 
   /*============================= Smoothscroll js ==============================*/
 
-  $(".navbar-default").on("click", "a", function (event) {
+  $(".navbar-default").on("click", "a[href^='#']", function (event) {
     var $anchor = $(this);
+    var targetSelector = $anchor.attr("href");
+    if (!targetSelector || targetSelector === "#") return;
+    var $target = $(targetSelector);
+    if (!$target.length || !$target.offset()) return;
+    event.preventDefault();
+
+    var destination = Math.max(0, $target.offset().top - 1);
     $("html, body")
       .stop()
       .animate(
-        {
-          scrollTop: $($anchor.attr("href")).offset().top - 1,
-        },
-        1000
+        { scrollTop: destination },
+        800,
+        "swing",
+        function () {
+          // After scrolling, update active section class
+          setActiveSection($target);
+        }
       );
-    event.preventDefault();
   });
+
+  // Add smooth active-state transitions between sections referenced by navbar links
+  function collectNavTargets() {
+    var ids = [];
+    $(".navbar-default a[href^='#']").each(function () {
+      var href = $(this).attr("href");
+      if (href && href.length > 1) {
+        ids.push(href);
+      }
+    });
+    // Deduplicate
+    ids = ids.filter(function (value, index, self) { return self.indexOf(value) === index; });
+    if (!ids.length) return $();
+    return $(ids.join(","));
+  }
+
+  var $navTargets = collectNavTargets();
+  if ($navTargets.length) {
+    $navTargets.addClass("section-animated");
+  }
+
+  function setActiveSection($section) {
+    if (!$section || !$section.length) return;
+    if (!$navTargets.length) return;
+    $navTargets.removeClass("section-active");
+    $section.addClass("section-active");
+  }
+
+  function updateActiveSectionOnScroll() {
+    if (!$navTargets.length) return;
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+    var bestSection = null;
+    var bestScore = -Infinity;
+    $navTargets.each(function () {
+      var $el = $(this);
+      var off = $el.offset();
+      if (!off) return;
+      var top = off.top;
+      var height = $el.outerHeight();
+      var bottom = top + height;
+      var overlap = Math.max(0, Math.min(viewportBottom, bottom) - Math.max(viewportTop, top));
+      // Prefer sections with more overlap; break ties by proximity to top
+      var score = overlap - Math.abs(top - viewportTop) * 0.01;
+      if (score > bestScore) {
+        bestScore = score;
+        bestSection = $el;
+      }
+    });
+    if (bestSection) setActiveSection(bestSection);
+  }
 
   /*====================================== jquery scroll spy ========================================*/
 
   $body.scrollspy({
     target: ".navbar-collapse",
     offset: 15,
+  });
+
+  // Update active section on scroll and on load
+  $(window).on("scroll resize load", function () {
+    updateActiveSectionOnScroll();
   });
 
   /*====================================== Fancybox ========================================*/

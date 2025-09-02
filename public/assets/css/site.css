@@ -1,3 +1,14 @@
+/* Smooth section transition states */
+.section-animated {
+	transition: opacity 300ms ease, transform 300ms ease;
+	opacity: 0.0;
+	transform: translateY(12px);
+}
+
+.section-animated.section-active {
+	opacity: 1.0;
+	transform: translateY(0);
+}
 h1 {
   font-size:     72px;
   line-height:   1.5;

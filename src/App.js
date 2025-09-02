@@ -15,6 +15,9 @@ import ReactHooks from "./Pages/ReactHooks";
 import UiUx from "./Pages/UiUx";
 import FormExample from "./Pages/FormExample";
 
+// import Speed Insights
+import { SpeedInsights } from "@vercel/speed-insights/react";
+
 function App() {
   return (
     <React.StrictMode>
@@ -29,6 +32,7 @@ function App() {
           </Switch>
         </ScrollToTop>
         <Footer />
+        <SpeedInsights />
       </Router>
     </React.StrictMode>
   );
